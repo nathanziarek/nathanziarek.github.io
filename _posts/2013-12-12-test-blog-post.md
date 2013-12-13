@@ -2,7 +2,7 @@
 layout: post
 title: Blogging Like a Hacker
 permalink: /blah
-published: false
+published: true
 category: test
 ---
 
