@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Blogging Like a Hacker
 permalink: /blah
 published: true
