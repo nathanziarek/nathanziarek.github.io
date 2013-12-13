@@ -1,11 +1,8 @@
-{{{
-    "summary": "If you don't want Jared Spool to eviscerate your survey, practice a modicum of UX.",
-    "publishedOn": "December 26 2010",
-    "keywords": ["ux", "survey"],
-    "status": "publish"
-}}}
-
-# Nineteen Ways to Ruin a Survey
+---
+title: Nineteen Ways to Ruin a Survey
+excerpt: If you don't want Jared Spool to eviscerate your survey, practice a modicum of UX.
+categories: ux survey
+---
 
 [Jared Spool pretty much obliterates][1] United’s WiFi survey. My favorite:
 

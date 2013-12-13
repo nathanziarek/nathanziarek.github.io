@@ -1,9 +1,8 @@
-{{{
-    "summary": "A half-second increase in page load time might cost you 20%.",
-    "keywords": ["page speed", "seo", "ux"],
-    "publishedOn": "January 1 2031",
-    "status": "draft"
-}}}
+---
+excerpt: A half-second increase in page load time might cost you 20%.
+categories: PageSpeed SEO UX
+published: false
+---
 
 #Speed Matters
 

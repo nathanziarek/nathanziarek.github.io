@@ -1,11 +1,9 @@
-{{{
-    "summary": "It's easy to get lulled into thinking URLs don't matter...but they're part of the interface. Learn to love them.",
-    "keywords": ["urls", "seo", "ux", "canonical"],
-    "status": "draft",
-    "publishedOn": "January 1 2031"
-}}}
-
-#Writing Exceptional URLs
+---
+title: Writing Exceptional URLs
+excerpt: It's easy to get lulled into thinking URLs don't matter...but they're part of the interface. Learn to love them.
+categories: URLs SEO UX Canonical
+published: false
+---
 
 Even in the age of AJAX and mobile apps, URLs still act as the building block of modern websites. Creating stronger URLs *probably* won't win you any awards or help you get the girl (guy), but they will make your site appear notably more professional and help provide cleaner analytics reports.
 
@@ -80,7 +78,7 @@ I’ve seen time where automatic URLs create embarrassing or incorrect descritio
 
 You don’t want to edit them often—ideally at all—since every new URL will require time to get back to the SEO ranking of the last one, but manually creating URL
 Define top-level category by site hierarchy
-•    Catalog -- /catalog/name-of-product OR Product /product/name-of-product
+• Catalog -- /catalog/name-of-product OR Product /product/name-of-product
 •	Category -- /category/healthcare/blood-pressure-cuffs
 •	Invoice -- /invoice/invoice-number
 •	Order History – /order-history/po-number

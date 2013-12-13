@@ -1,11 +1,8 @@
-{{{
-    "summary": "Slick technique to make CSS arrows.",
-    "keywords": ["ux", "css"],
-    "publishedOn": "May 1 2013",
-    "status": "published"
-}}}
-
-#Making CSS Borders Work for You!
+---
+title: Making CSS Borders Work for You
+excerpt: Slick technique to make CSS arrows.
+categories: UX CSS
+---
 
 I can't tell you how many times I've cursed the way borders join in CSS. Nice to see someone taking advantage of it to great effect.
 
