@@ -1,5 +1,6 @@
 ---
 layout: home
+style: home
 ---
 
 <ul>
