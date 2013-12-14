@@ -4,10 +4,10 @@ layout: none
 <!DOCTYPE html>
 <html>
 	<head>
-		{% if post.title == '' %}
+		{% if page.title == '' %}
 			<title>{{ site.name }}</title>
 		{% else %}
-			<title>{{ post.title }} &mdash; {{ site.name }}</title>
+			<title>{{ page.title }} &mdash; {{ site.name }}</title>
 		{% endif %}		
 		<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,700' rel='stylesheet' type='text/css'>
 		<link href="/interface/styles/style.css" rel="stylesheet" type="text/css">
