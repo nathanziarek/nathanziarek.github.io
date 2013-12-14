@@ -4,7 +4,7 @@ layout: none
 <!DOCTYPE html>
 <html>
 	<head>
-		{% if page.title == '' %}
+		{% if page.title == undefined %}
 			<title>{{ site.name }}</title>
 		{% else %}
 			<title>{{ page.title }} &mdash; {{ site.name }}</title>
