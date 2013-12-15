@@ -3,7 +3,8 @@ layout: meta
 style: article
 ---
 
-<article>
-<h1>{{page.title}}</h1>
+<article itemscope itemtype="http://schema.org/BlogPosting">
+<h1 itemprop="name">{{page.title}}</h1>
 {{content}}
+<p>by <span itemprop="author">{{page.author}}</span>
 </article>
