@@ -1,28 +1,28 @@
+@color-accent: #eee;
+@content-width: 700px;
+@content-spacing: 15px;
+
 body {
 	font-family: "Maven Pro";
-}
-
-body.home {
-	background: #eee;
-}
-
-body.home section {
-	width:  700px;
-	margin: auto;
-}
-
-body.home ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-body.home li {
-	margin: 15px;
-	padding: 15px;
-	width: 320px;
-	box-sizing: border-box;
-	border-radius: 3px;
-	background: #fff;
-	box-shadow: #dadada 0 2px 4px;
+	&.home {
+		background: @color-accent;
+		section {
+			width:  @content-width;
+			margin: auto;
+			ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				li {
+					margin: @content-spacing;
+					padding: @content-spacing;
+					width: ((@content-width / 2) - (@content-spacing * 2));
+					box-sizing: border-box;
+					border-radius: 3px;
+					background: lighten(@color-accent, 10%);
+					box-shadow: darken(@color-accent, 20%) 0 2px 4px;
+				}
+			}
+		}
+	}
 }
