@@ -1,0 +1,19 @@
+{
+  "name": "latetotheparty.co",
+  "version": "0.0.1",
+  "homepage": "https://github.com/nathanziarek/nathanziarek.github.io",
+  "authors": [
+    "Nathan Ziarek <nziarek@gmail.com>"
+  ],
+  "dependencies": {
+    "packery": "~1.2.0"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
