@@ -1,6 +1,6 @@
 @color-accent: #eee;
 @content-width: 700px;
-@content-spacing: 15px;
+@content-gutter: 30px;
 
 body {
 	font-family: "Maven Pro";
@@ -10,13 +10,12 @@ body {
 			width:  @content-width;
 			margin: auto;
 			ul {
-				margin: 0 -15px;
+				margin: 0;
 				padding: 0;
 				list-style: none;
 				li {
-					margin: @content-spacing;
-					padding: @content-spacing;
-					width: ((@content-width / 2) - (@content-spacing * 2));
+					padding: @content-gutter / 2;
+					width: ((@content-width - @content-gutter) / 2);
 					box-sizing: border-box;
 					border-radius: 3px;
 					background: lighten(@color-accent, 10%);

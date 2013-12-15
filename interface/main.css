@@ -9,14 +9,13 @@ body.home section {
   margin: auto;
 }
 body.home section ul {
-  margin: 0 -15px;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
 body.home section ul li {
-  margin: 15px;
   padding: 15px;
-  width: 320px;
+  width: 335px;
   box-sizing: border-box;
   border-radius: 3px;
   background: #ffffff;
