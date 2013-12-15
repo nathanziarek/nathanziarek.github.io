@@ -15,18 +15,27 @@ module.exports = function(grunt) {
     uglify: {
 		build: {
 			files: {
-				'../interface/scripts/main.js': '<%= initData %>'
+				'../interface/main.js': '<%= initData %>'
 			}
 		}
+	},
+	less: {
+		build: {
+			files: {
+				'../interface/main.css': ['styles/main.less']
+		    }
+		}
 	}
+	
   });
 
 
   grunt.loadNpmTasks('grunt-bower-task');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-less');
 
 
-  grunt.registerTask('default', ['bower', 'bower-builder', 'uglify:build']);
+  grunt.registerTask('default', ['bower', 'bower-builder', 'uglify:build', 'less:build']);
   grunt.registerTask('bower-builder', function() {
 	
 	var done = this.async();
