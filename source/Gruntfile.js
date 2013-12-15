@@ -40,18 +40,10 @@ module.exports = function(grunt) {
 	
 	var done = this.async();
 	var bowerApp = require("bower");
-	var jsSources = [];
-	bowerApp.commands.list({paths:true}).on("end", function(results){
-	    for(key in results) {
-	    	if(typeof(results[key]) == "string") {
-	    		jsSources.push(results[key]);
-			} else {
-				for(i=0; i<results[key].length; i++) {
-					jsSources.push(results[key][i]);
-				}
-			}
-	    }
-	    grunt.config(['initData'], jsSources);
+	var org = require("organize-bower-sources");
+	
+	bowerApp.commands.list().on("end", function(results){
+	    grunt.config(['initData'], org(results)['.js']);
 	    done();
 	});
 	
