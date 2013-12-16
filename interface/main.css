@@ -13,7 +13,6 @@
   font-weight: 100;
   color: #b8babc;
   position: relative;
-  -webkit-transition: linear .25s all;
 }
 #site-brand:hover a {
   opacity: 1;
@@ -27,8 +26,8 @@
   top: 50%;
   left: 50%;
   margin: -18px 0 0 -15px;
-  -webkit-transition: linear .25s all;
   display: block;
+  -webkit-transition: linear margin .2s;
 }
 #site-brand .site-logo:before {
   font-family: lttp;
@@ -45,7 +44,7 @@
   display: block;
   opacity: 0;
   margin: -18px 0 0 20px;
-  -webkit-transition: linear .25s margin;
+  -webkit-transition: linear opacity .2s, linear margin .2s;
 }
 body {
   font-family: "Alegreya Sans";
@@ -72,7 +71,7 @@ body.home section ul {
 body.home section ul li {
   width: 335px;
   cursor: pointer;
-  -webkit-transition: linear .25s all;
+  -webkit-transition: linear 0.25s box-shadow;
 }
 body.home section ul li:hover {
   box-shadow: #b8babc 0 0 10px;

@@ -22,7 +22,6 @@
 	font-weight: 100;
 	color: darken(@color-accent, 20%);
 	position: relative;
-	-webkit-transition: linear .25s all;
 	&:hover {
 		a {
 			opacity: 1;
@@ -37,12 +36,12 @@
 		top: 50%;
 		left: 50%;
 		margin: -18px 0 0 -15px;
-		-webkit-transition: linear .25s all;
 		&:before {
 			font-family: lttp;
 			content: "\e601";
 		}
 		display: block;
+		-webkit-transition: linear margin .2s;
 	}
 	a {
 		position: absolute;
@@ -55,7 +54,7 @@
 		display: block;
 		opacity: 0;
 		margin: -18px 0 0 20px;
-		-webkit-transition: linear .25s margin;
+		-webkit-transition: linear opacity .2s, linear margin .2s;
 	}
 }
 
@@ -82,7 +81,7 @@ body {
 				li {
 					width: ((@content-width - @content-gutter) / 2);
 					cursor: pointer;
-					-webkit-transition: linear .25s all;
+					-webkit-transition: linear .25s box-shadow;
 					&:hover {
 						box-shadow: darken(@color-accent, 20%) 0 0 10px;
 					}
