@@ -1,9 +1,75 @@
-@color-accent: #eee;
+@color: #336699;
+@color-accent: hsl(hue(@color), 3%, lightness(#eee));
 @content-width: 700px;
 @content-gutter: 30px;
 
+@font-face {
+	font-family: 'lttp';
+	src:url('lttp.eot');
+	src:url('lttp.eot?#iefix') format('embedded-opentype'),
+		url('lttp.ttf') format('truetype'),
+		url('lttp.woff') format('woff'),
+		url('lttp.svg#lttp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#site-brand {
+	background: @color-accent;
+	height: @content-gutter * 3;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 100;
+	color: darken(@color-accent, 20%);
+	position: relative;
+	-webkit-transition: linear .25s all;
+	&:hover {
+		a {
+			opacity: 1;
+			margin: -18px 0 0 -70px;
+		}
+		.site-logo {
+			margin: -18px 0 0 -105px;
+		}
+	}
+	.site-logo {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -18px 0 0 -15px;
+		-webkit-transition: linear .25s all;
+		&:before {
+			font-family: lttp;
+			content: "\e601";
+		}
+		display: block;
+	}
+	a {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		color: darken(@color-accent, 20%);
+		text-decoration: none;
+		height:36px;
+		overflow: hidden;
+		display: block;
+		opacity: 0;
+		margin: -18px 0 0 20px;
+		-webkit-transition: linear .25s margin;
+	}
+}
+
 body {
-	font-family: "Maven Pro";
+	font-family: "Alegreya Sans";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	&.article {
+		article {
+			width:700px;
+			margin: auto;
+		}
+	}
 	&.home {
 		background: @color-accent;
 		section {
@@ -14,12 +80,34 @@ body {
 				padding: 0;
 				list-style: none;
 				li {
-					padding: @content-gutter / 2;
 					width: ((@content-width - @content-gutter) / 2);
-					box-sizing: border-box;
-					border-radius: 3px;
-					background: lighten(@color-accent, 10%);
-					box-shadow: darken(@color-accent, 20%) 0 2px 4px;
+					cursor: pointer;
+					-webkit-transition: linear .25s all;
+					&:hover {
+						box-shadow: darken(@color-accent, 20%) 0 0 10px;
+					}
+					.post-holder {
+						border-radius: 2px;
+						background: lighten(@color-accent, 10%);
+						box-shadow: darken(@color-accent, 20%) 0 1px 3px;
+						padding: @content-gutter / 2;
+						h1 { 
+							font-size: 20px;
+							margin: 0;
+							padding: 0;
+							a { 
+								text-decoration: none;
+								color: darken(@color-accent, 50%);
+							}
+						}
+						p { 
+							padding: 0; 
+							margin: 5px 0 0 0; 
+							color: darken(@color-accent, 45%);
+							font-size: 15px;
+						}
+						.post-date { display: none; }
+					}
 				}
 			}
 		}

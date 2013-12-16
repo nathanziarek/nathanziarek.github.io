@@ -1,0 +1,16 @@
+---
+layout: home
+style: home
+---
+
+<ul>
+  {% for post in site.posts %}
+    <li class="post-placement {{ post.category }}">
+		<div class="post-holder" itemscope itemtype="http://schema.org/Article">
+			<h1 itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h1>
+			<p class="post-description" itemprop="description">{{ post.excerpt }}</p>
+			<p class="post-date" itemprop="dateCreated">{{ post.date }}</p>
+		</div>
+    </li>
+  {% endfor %}
+</ul>
