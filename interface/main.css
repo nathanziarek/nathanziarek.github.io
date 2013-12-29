@@ -51,10 +51,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
+  font-size: 67%;
 }
 body.article article {
-  width: 700px;
+  width: 600px;
   margin: auto;
+}
+body.article article p {
+  font-size: 1.6em;
+  line-height: 1.4em;
+}
+body.article article h1 {
+  font-size: 2.8em;
 }
 body.home {
   background: #ededee;
@@ -71,10 +79,16 @@ body.home section ul {
 body.home section ul li {
   width: 335px;
   cursor: pointer;
-  -webkit-transition: linear 0.25s box-shadow;
+  -webkit-transition: linear 0.25s box-shadow, color;
 }
 body.home section ul li:hover {
   box-shadow: #b8babc 0 0 10px;
+}
+body.home section ul li:hover .post-holder h1 a {
+  color: #45474a;
+}
+body.home section ul li:hover .post-holder p {
+  color: #525457;
 }
 body.home section ul li .post-holder {
   border-radius: 2px;
