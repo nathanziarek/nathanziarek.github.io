@@ -86,10 +86,13 @@ body {
 				margin: 0;
 				padding: 0;
 				list-style: none;
+				opacity: 0;
+				-webkit-transition: linear .5s opacity;
+				&.state-ready { opacity: 1 }
 				li {
 					width: ((@content-width - @content-gutter) / 2);
 					cursor: pointer;
-					-webkit-transition: linear .25s box-shadow,color;
+					-webkit-transition: linear .25s box-shadow, linear .25s color, linear .5s opacity;
 					&:hover {
 						box-shadow: darken(@color-accent, 20%) 0 0 10px;
 						.post-holder {

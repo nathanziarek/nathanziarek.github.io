@@ -75,11 +75,16 @@ body.home section ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  opacity: 0;
+  -webkit-transition: linear .5s opacity;
+}
+body.home section ul.state-ready {
+  opacity: 1;
 }
 body.home section ul li {
   width: 335px;
   cursor: pointer;
-  -webkit-transition: linear 0.25s box-shadow, color;
+  -webkit-transition: linear 0.25s box-shadow, linear 0.25s color, linear 0.5s opacity;
 }
 body.home section ul li:hover {
   box-shadow: #b8babc 0 0 10px;

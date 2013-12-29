@@ -6,6 +6,6 @@ WebFontConfig = {
 		$("body.home ul").packery({
 			itemSelector: 'li',
 			gutter: 30
-		});
+		}).addClass("state-ready");
 	}
 };
