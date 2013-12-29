@@ -6,7 +6,7 @@ layout: none
 	<head>
 		<meta charset="UTF-8">
 		<!--<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,400,700,400italic,700italic' rel='stylesheet' type='text/css'>-->
-		<link href="/interface/main.css" rel="stylesheet" type="text/css">
+		<link href="/interface/v{{ site.version }}/main.css" rel="stylesheet" type="text/css">
 		{% if page.title == undefined %}
 			<title>{{ site.name }}</title>
 		{% else %}
@@ -20,7 +20,7 @@ layout: none
 			<a href="/">Late to the Party</a>
 		</div>
 		{{content}}
-		<script src="/interface/main.js"></script><!---->
+		<script src="/interface/v{{ site.version }}/main.js"></script><!---->
 	</body>
 </html>
 
