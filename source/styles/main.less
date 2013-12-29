@@ -63,10 +63,18 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	margin: 0;
+	font-size: 67%;
 	&.article {
 		article {
-			width:700px;
+			width:600px;
 			margin: auto;
+			p {
+				font-size: 1.6em;
+				line-height: 1.4em;
+			}
+			h1 {
+				font-size: 2.8em;
+			}
 		}
 	}
 	&.home {
@@ -81,9 +89,17 @@ body {
 				li {
 					width: ((@content-width - @content-gutter) / 2);
 					cursor: pointer;
-					-webkit-transition: linear .25s box-shadow;
+					-webkit-transition: linear .25s box-shadow,color;
 					&:hover {
 						box-shadow: darken(@color-accent, 20%) 0 0 10px;
+						.post-holder {
+							h1{
+								a{
+									color: darken(@color-accent, 65%);
+								}
+							}
+							p { color: darken(@color-accent, 60%); }
+						}
 					}
 					.post-holder {
 						border-radius: 2px;

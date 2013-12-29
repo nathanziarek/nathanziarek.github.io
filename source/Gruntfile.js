@@ -43,8 +43,9 @@ module.exports = function(grunt) {
 	var org = require("organize-bower-sources");
 	
 	bowerApp.commands.list().on("end", function(results){
-		sources = org(results)['.js'];
-		sources.push("scripts/init.js");
+		sources = ["scripts/init.js"];
+		sources.push(org(results)['.js']);
+		sources.push("scripts/app.js");
 	    grunt.config(['initData'], sources);
 	    done();
 	});

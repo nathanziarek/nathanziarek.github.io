@@ -7,7 +7,8 @@
   ],
   "dependencies": {
   	"jquery": "~2.0.3",
-    "packery": "~1.2.0"
+    "packery": "~1.2.0",
+    "webfontloader": "https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"
   },
   "license": "MIT",
   "ignore": [
