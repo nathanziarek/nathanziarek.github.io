@@ -1,6 +1,6 @@
 {
   "name": "lttp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "http://github.com/nathanziarek/nathanziarek.github.io.git",
   "devDependencies": {
     "grunt": "~0.4.2",

@@ -23,6 +23,9 @@ module.exports = function(grunt) {
 		build: {
 			files: {
 				'../interface/v<%= pkg.version %>/main.css': ['styles/main.less']
+		    },
+		    options: {
+				cleancss: true
 		    }
 		}
 	},
