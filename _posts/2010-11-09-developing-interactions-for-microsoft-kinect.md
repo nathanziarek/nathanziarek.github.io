@@ -6,6 +6,7 @@ permalink: developing-interactions-for-xbox-kinect
 categories: kinect ux interaction
 published: true
 reference: http://arstechnica.com/gaming/news/2010/11/the-kinect-effect-how-harmonix-mastered-dance-centrals-menus.ars
+author: Nathan Ziarek
 ---
 
 > The biggest lesson that Challinor and his team learned during this process is that, when dealing with something so new and unexplored like gesture controls, actions speak louder than words. "You can't just talk about it, you have to prototype it," he said. "Concepting won't get you very far." His hope is that eventually, as Kinect becomes more popular, a standardized menu system will be settled upon, so developers don't have to spend so much time on it and players don't have to re-learn how to interact with the menus for each game.via 
