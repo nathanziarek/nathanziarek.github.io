@@ -5,6 +5,7 @@ excerpt: Slick technique to make CSS arrows.
 categories: css
 published: true
 permalink: making-css-borders-work-for-you
+author: Nathan Ziarek
 ---
 
 I can't tell you how many times I've cursed the way borders join in CSS. Nice to see someone taking advantage of it to great effect.
