@@ -6,6 +6,7 @@ categories: ux survey
 published: true
 reference: http://www.uie.com/brainsparks/2010/12/26/19-lessons-from-united-airlines-on-how-to-build-a-crappy-survey/
 permalink: nineteen-ways-to-ruin-a-survey
+author: Nathan Ziarek
 ---
 
 
