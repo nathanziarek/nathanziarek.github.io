@@ -5,6 +5,7 @@ excerpt: Making things objectively better may not always equal better usability.
 categories: search facets ux
 published: true
 permalink: there-is-value-in-the-disruption
+author: Nathan Ziarek
 ---
 
 A few months back I was working on a tool that automatically updated a form from previous data. The interaction itself was really simple---click a button, form fields update---but the speed of it bugged me. 
