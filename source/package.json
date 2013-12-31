@@ -1,9 +1,10 @@
 {
   "name": "lttp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": "http://github.com/nathanziarek/nathanziarek.github.io.git",
   "devDependencies": {
     "grunt": "~0.4.2",
+	"grunt-cli": "*",
     "bower": "*",
     "grunt-bower-task": "~0.3.4",
     "organize-bower-sources": "git+https://github.com/desandro/organize-bower-sources.git",
