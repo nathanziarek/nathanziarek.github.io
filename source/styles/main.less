@@ -1,5 +1,6 @@
 @color: #336699;
 @color-accent: hsl(hue(@color), 3%, lightness(#eee));
+@color-text: hsl(hue(@color), 3%, lightness(#333));
 @content-width: 700px;
 @content-gutter: 30px;
 
@@ -18,7 +19,7 @@
 	background: @color-accent;
 	height: @content-gutter * 3;
 	text-align: center;
-	font-size: 30px;
+	font-size: 32px;
 	font-weight: 100;
 	color: darken(@color-accent, 20%);
 	position: relative;
@@ -71,10 +72,22 @@ body {
 			p {
 				font-size: 1.6em;
 				line-height: 1.4em;
-                                a { color: @color; text-decoration: none; }
+                a { color: @color; text-decoration: none; }
 			}
 			h1 {
 				font-size: 2.8em;
+				a {
+					text-decoration: none;
+					color: @color-text;
+					&:hover {
+						color: @color;
+					}
+				}
+			}
+			blockquote {
+				border-left: 3px solid @color-accent;
+				padding: 0 15px;
+				margin: 10px;
 			}
 		}
 	}
@@ -94,6 +107,18 @@ body {
 					width: ((@content-width - @content-gutter) / 2);
 					cursor: pointer;
 					-webkit-transition: linear .25s box-shadow, linear .25s color, linear .5s opacity;
+					&.reference { font-size: .9em }
+					&.longform {
+						h1 { 
+							&:before {
+								content: "\e601";
+								font-family: lttp;
+								font-size: 16px;
+								color: desaturate(@color, 50%);
+								margin-right: 5px;
+							}
+						}
+					}
 					&:hover {
 						box-shadow: darken(@color-accent, 20%) 0 0 10px;
 						.post-holder {
@@ -111,7 +136,7 @@ body {
 						box-shadow: darken(@color-accent, 20%) 0 1px 3px;
 						padding: @content-gutter / 2;
 						h1 { 
-							font-size: 20px;
+							font-size: 2em;
 							margin: 0;
 							padding: 0;
 							a { 
@@ -123,7 +148,7 @@ body {
 							padding: 0; 
 							margin: 5px 0 0 0; 
 							color: darken(@color-accent, 45%);
-							font-size: 15px;
+							font-size: 1.5em;
 						}
 						.post-date { display: none; }
 					}
