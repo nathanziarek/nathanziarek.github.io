@@ -10,6 +10,7 @@ author: Nathan Ziarek
 ---
 
 [VKI Studios][2] in their continuing series on _Persuasive Web Design_:
+VKI Studios in their continuing series on _Persuasive Web Design_:
 
 > We've all heard of cases where someone's lying sick on the sidewalk, and hundreds of people just walk by without offering help. What's going on here? And how can this possibly apply to web design?
 > 
