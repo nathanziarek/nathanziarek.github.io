@@ -8,9 +8,6 @@ published: true
 author: Nathan Ziarek
 ---
 
-## Minimalist Google (now with hideaway menus!)  
-\[ Posted [Sun, 06 Dec 2009 19:10:00][0] \]
-
 [UX Magazine][1] has an [interesting note][2] on the changes Google has made to their main search page.
 
 Essentially, they've turned back the clock --- showing only their logo, text box and a couple of buttons --- until you move the mouse, and the now-standard options and links fade in (hover your mouse below to see it in action).
@@ -27,6 +24,7 @@ The user path of a basic search would look something like this:
 ![](http://media.tumblr.com/tumblr_ku9atifzdI1qzxpmp.png)
 
 In this scenario, the visit (typing [www.google.com][4]) and the page load (receiving data and rendering the page) have little room for improvement. My personal load time for the Google homepage is a little over a third of a second.
+
 ![](http://media.tumblr.com/tumblr_ku9b0kbXtV1qzxpmp.png)
 
 Even if there are enhancements that can cut into this number, these are diminishing returns measured in hundredths of seconds. Similarly, clicking "submit" (or pressing enter) and the speed of the results page have little, if any, improvement.
@@ -43,10 +41,6 @@ Even after all these words, I'm still not 100% sure I "get" the changes --- its 
 
 In any case, it's exciting to see what could be deemed a "technology" problem tackled with a user-experience focus. I expect this feature will be with us until they figure out another, better, _faster_ way to do it.
 
-Tagged with: google, ux
-
-
-[0]: http://nathanziarek.tumblr.com/post/269797827
 [1]: http://uxmag.com
 [2]: http://uxmag.com/short-news/google039s-magic-trick
 [3]: http://glinden.blogspot.com/2006/11/marissa-mayer-at-web-20.html

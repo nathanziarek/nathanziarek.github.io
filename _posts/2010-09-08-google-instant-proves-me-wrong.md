@@ -1,24 +1,20 @@
 ---
 layout: article
 title: Google Instant Proves Me Wrong
-excerpt: 
+excerpt: Google keeps adding stuff to their pages, and they keep loading faster.
 permalink: 2010-09-08-google-instant-proves-me-wrong
 published: true
 author: Nathan Ziarek
 ---
 
-## Google Instant Proves Me Wrong  
-\[ Posted [Wed, 08 Sep 2010 17:59:36][0] \]
-
 A few months back I wrote a bit about [Minimalist Google][1], and how the Big G was sacrificing "load" speed (the amount of time it takes the browser to download and render a page) to decrease Focus and Query time (or increase perceived speed).
 
-> I have no reliable way to test, but I'd guess this new page loads and renders slower than it's less-fancy ancestor. If microseconds count --- a half-second increase in page load time translates to a 20% decrease in traffic --- wouldn't it benefit the big G to stay away from ...needless� styling?
+> I have no reliable way to test, but I'd guess this new page loads and renders slower than it's less-fancy ancestor. If microseconds count --- a half-second increase in page load time translates to a 20% decrease in traffic --- wouldn't it benefit the big G to stay away from "needless" styling?
 > 
 > The user path of a basic search would look something like this: 
 > ![](http://media.tumblr.com/tumblr_ku9atifzdI1qzxpmp.png)
 > 
-> In this scenario, the visit (typing [www.google.com][2]) and the page load (receiving data and rendering the page) have little room for improvement. My personal load time for the Google homepage is a little over a third of a second...Similarly, clicking ...submit� (or pressing enter) and the speed of the results page have little, if any, improvement.
-> 
+> In this scenario, the visit (typing [www.google.com][2]) and the page load (receiving data and rendering the page) have little room for improvement. My personal load time for the Google homepage is a little over a third of a second...Similarly, clicking "submit" (or pressing enter) and the speed of the results page have little, if any, improvement.
 
 Turns out, I was wrong (shocking!).
 

@@ -1,17 +1,12 @@
 ---
 layout: article
 title: Is My Web Analytic Software Even Working?
-
-Number hawksDid I install it right?Wrapping Up
 excerpt: 
-permalink: 2010-03-07-is-my-web-analytic-software-even-working-number-hawksdid-i-install-it-right-wrapping-up
+permalink: 2010-03-07-is-my-web-analytic-software-even-working
 categories: google-analytics webtrends clicky web-inspector 
 published: true
 author: Nathan Ziarek
 ---
-
-## Is My Web Analytic Software Even Working?  
-\[ Posted [Sun, 07 Mar 2010 10:24:00][0] \]
 
 A recent question on the Google Analytics forums had me thinking about how I test various web tracking solutions.
 
@@ -39,7 +34,6 @@ There are a thousand possible configurations for the tracking code, but most err
 In Google Analytics, for example, there is a string...
 
 > pageTracker = \_gat.\_getTracker("**UA-123456-1**");
-> 
 
 ...where **UA-123456-1** specifies your account. The only way to make sure this number is right is to audit. No tricks here, unfortunately.
 
@@ -54,16 +48,16 @@ Look at the browser report and note if a particular browser is completely absent
 (My experience is with Google Chrome and Apple's Safari, although I assume the same results are possible with FireFox/FireBug and Opera. I won't make that same assumption with Internet Explorer.)
 
 1. Determine the method of communication between the script on the page and the server. Most software uses an image file --- Google Analytics has **\_\_utm.gif**, WebTrends **dcs.gif** and Clicky **in.php**.
-2. 
-In Safari or Chrome, right click on any page that should be tracked and select the Inspector option.
 
-![Inspect Element](http://media.tumblr.com/tumblr_kyx1btFLL81qzxpmp.png)
+2. In Safari or Chrome, right click on any page that should be tracked and select the Inspector option.
+
+   ![Inspect Element](http://media.tumblr.com/tumblr_kyx1btFLL81qzxpmp.png)
 3. 
 A window will appear (either attached to the screen or floating above it) with a number of tools. These tools are constantly being changed and upgraded, so don't worry if your screen doesn't look exactly like this. You are looking for the "Resources" tab.
 
-![Inspector Palette](http://media.tumblr.com/tumblr_kyx1opCyqt1qzxpmp.png)
-4. 
-On the left-hand side you'll see a list of all the resources needed to make this page operate. If you see the file from step 1 (\_\_utm.gif in this example), you know that the page is communicating with the server successfully.
+   ![Inspector Palette](http://media.tumblr.com/tumblr_kyx1opCyqt1qzxpmp.png)
+
+4. On the left-hand side you'll see a list of all the resources needed to make this page operate. If you see the file from step 1 (\_\_utm.gif in this example), you know that the page is communicating with the server successfully.
 
 ### You just aren't getting any traffic
 
@@ -80,8 +74,3 @@ Monitoring your web traffic for the first time is a bit of a catch 22\. You can'
 My suggestion is to worry less about the numbers and focus on the trends. Are you looking to increase revenue? Watch those numbers fluctuate based on your campaigns and tweak as needed. Be less concerned with making ten thousand dollars a month and more concerned with making the _next_ dollar.
 
 The trends will tell you more about what you are doing right than a simple visit number ever will.
-
-Tagged with: google analytics, webtrends, clicky, web inspector
-
-
-[0]: http://nathanziarek.tumblr.com/post/432578598
