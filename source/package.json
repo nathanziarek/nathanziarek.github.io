@@ -3,6 +3,9 @@
   "version": "0.0.4",
   "repository": "http://github.com/nathanziarek/nathanziarek.github.io.git",
   "devDependencies": {
+  	"jsdom": "*",
+  	"contextify": "*",
+  	"html-md": "*",
     "grunt": "~0.4.2",
 	"grunt-cli": "*",
     "bower": "*",
