@@ -4,7 +4,19 @@ style: article
 ---
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
-<h1 itemprop="name">{{page.title}}</h1>
-{{content}}
-<p>by <span itemprop="author">{{page.author}}</span>
+
+	{% if page.reference %}
+	<h1><a itemprop="name" href="{{ page.reference }}">{{page.title | xml_escape}}</a></h1>
+	{% else %}
+	<h1><a itemprop="name" href="/{{ page.permalink }}">{{page.title | xml_escape}}</a></h1>
+	{% endif %}
+	
+	{{content}}
+	
+	<!--<p>by <span itemprop="author">{{page.author}}</span>-->
+	
+	{% if page.reference %}
+	<p><a href="{{ page.reference }}">Source</a></p>
+	{% endif %}
+	
 </article>
