@@ -20,7 +20,7 @@ var fs = require("fs"),
 			    	if(pageTitle == '') {
 			    		pageTitle = "Blank" + i;
 			    	}
-			    	pageURL = pageDate.getFullYear() + " " + ("0" + pageDate.getDate()).slice(-2) + " " + ("0" + pageDate.getDate()).slice(-2) + " " + pageTitle;
+			    	pageURL = pageDate.getFullYear() + " " + ("0" + (pageDate.getMonth()+1)).slice(-2) + " " + ("0" + pageDate.getDate()).slice(-2) + " " + pageTitle;
 			    	pageURL = pageURL.toLowerCase().replace(/[^\d\w]+/g, "-");
 			    	pageURL = pageURL.replace(/(^-+)|(-+$)/, "");
 			    	window.$("h2", pageHTML).remove();
