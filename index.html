@@ -5,10 +5,12 @@ style: home
 
 <ul>
   {% for post in site.posts %}
-    <li class="post-placement {{ post.category }}">
+    <li class="post-placement {{ post.category }} {% if post.reference %}reference{% else %}longform{% endif %}">
 		<div class="post-holder" itemscope itemtype="http://schema.org/Article">
 			<h1 itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h1>
+			{% if post.excerpt %}
 			<p class="post-description" itemprop="description">{{ post.excerpt }}</p>
+			{% endif %}
 			<p class="post-date" itemprop="dateCreated">{{ post.date }}</p>
 		</div>
     </li>
