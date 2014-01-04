@@ -2,7 +2,7 @@
 layout: article
 title: Three Years Later, Feedburner Finds a Home @ Google
 excerpt: 
-permalink: 2009-11-16-three-years-later-feedburner-finds-a-home-google
+permalink: three-years-later-feedburner-finds-a-home-google
 categories: feedburner google-analytics rss 
 published: true
 author: Nathan Ziarek
