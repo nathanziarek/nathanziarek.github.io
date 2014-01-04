@@ -2,7 +2,7 @@
 layout: article
 title: YouTube and the Largest Google Website Optimizer Test in History
 excerpt: Tremendous potential in asynchronous user testing...
-permalink: 2009-09-29-youtube-and-the-largest-google-website-optimizer-test-in-history
+permalink: youtube-and-the-largest-google-website-optimizer-test-in-history
 published: true
 reference: http://blog.vkistudios.com/index.cfm/2009/9/29/Youtube-Google-Website-Optimizer-Interview
 author: Nathan Ziarek
