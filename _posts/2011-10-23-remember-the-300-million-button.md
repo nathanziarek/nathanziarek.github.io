@@ -2,7 +2,7 @@
 layout: article
 title: Remember the "$300 million button"?
 excerpt: How a tiny change to the user workflow netted a company a cool $300 mil. Kind of.
-permalink: 2011-10-23-remember-the-300-million-button
+permalink: remember-the-300-million-button
 published: true
 reference: http://www.uie.com/brainsparks/2011/10/17/the-back-story-for-the-300-million-button/
 author: Nathan Ziarek
