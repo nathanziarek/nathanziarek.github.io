@@ -3,7 +3,7 @@ layout: none
 ---
 <!DOCTYPE html>
 <html lang="en-US">
-	<head>
+	<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
 		<meta charset="UTF-8">
 		<link href="/interface/v{{ site.version }}/main.css" rel="stylesheet" type="text/css">
 		{% if page.title == undefined %}
@@ -23,6 +23,7 @@ layout: none
                 <meta property="og:url" content="{{ page.url }}" />
                 <meta property="article:author" content="http://www.linkedin.com/in/nathanziarek" />
                 <meta property="article:author" content="https://www.facebook.com/nathanziarek" />
+                <meta property="article:tag" content="{{ page.categories }}">
 	</head>
 	<body class="{{ page.style }}">
 		<div id="site-brand">
