@@ -2,7 +2,7 @@
 layout: article
 title: Maybe Google Instant isn't as Fast as I Think
 excerpt: 
-permalink: 2010-09-20-maybe-google-instant-isn-t-as-fast-as-i-think
+permalink: maybe-google-instant-isn-t-as-fast-as-i-think
 published: true
 reference: http://searchengineland.com/how-google-saved-100-million-by-launching-google-instant-51270
 author: Nathan Ziarek
