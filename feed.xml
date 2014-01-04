@@ -12,7 +12,7 @@ layout: none
 	    <item>
 	        <title>{{ post.title | xml_escape }}</title>
 	        <description>{{ post.content | xml_escape }}</description>
-	        <pubDate>{{ post.date | date: "%Y-%m-%d" }}</pubDate>
+	        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 	      	<updated>{{ post.date | date_to_xmlschema }}</updated>
 	        {% if post.reference %}
 	        <link>{{ post.reference }}</link>
