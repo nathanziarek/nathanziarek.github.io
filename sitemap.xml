@@ -1,1 +1,17 @@
-Test
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   {% for post in site.posts limit:10000 %}
+   <url>
+      <loc>{{ post.url }}</loc>
+      <lastmod>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastmod>
+      {% if post.reference %}
+      <priority>0.7</priority>
+      {% else %}
+      <priority10.0</priority>
+      {% endif %}
+   </url>
+   {% endfor %}
+</urlset> 
