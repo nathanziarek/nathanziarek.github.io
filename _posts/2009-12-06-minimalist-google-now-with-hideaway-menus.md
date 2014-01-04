@@ -2,7 +2,7 @@
 layout: article
 title: Minimalist Google (now with hideaway menus!)
 excerpt: 
-permalink: 2009-12-06-minimalist-google-now-with-hideaway-menus
+permalink: minimalist-google-now-with-hideaway-menus
 categories: google ux 
 published: true
 author: Nathan Ziarek
