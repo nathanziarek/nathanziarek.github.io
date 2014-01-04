@@ -10,7 +10,7 @@ layout: none
       {% if post.reference %}
       <priority>0.7</priority>
       {% else %}
-      <priority10.0</priority>
+      <priority>10.0</priority>
       {% endif %}
    </url>
    {% endfor %}
