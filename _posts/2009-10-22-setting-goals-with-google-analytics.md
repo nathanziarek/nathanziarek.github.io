@@ -2,7 +2,7 @@
 layout: article
 title: Setting Goals with Google Analytics
 excerpt: 
-permalink: 2009-10-22-setting-goals-with-google-analytics
+permalink: setting-goals-with-google-analytics
 categories: google-analytics 
 published: true
 reference: http://www.epikone.com/blog/2009/10/20/new-google-analytics-goals/
