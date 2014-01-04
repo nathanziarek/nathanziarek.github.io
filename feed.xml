@@ -14,7 +14,7 @@ layout: none
 	        <description>{{ post.content | xml_escape }}
                     &lt;script&gt;  &lt;/script&gt;
                     &lt;noscript&gt;  &lt;/noscript&gt;
-                    {{ <img src=""> | xml_escape }}
+                    &lt;img src=&39;http://www.google-analytics.com/collect?v=1&amp;t-id=UA-12345-1&amp;cid=55555&amp;t=pageview&amp;dp={{ post.url | xml_escape }}&39;&gt;
                 </description>
 	        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 	      	<updated>{{ post.date | date_to_xmlschema }}</updated>
