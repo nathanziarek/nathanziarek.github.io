@@ -2,7 +2,7 @@
 layout: article
 title: Web Form Design
 excerpt: Luke Wroblewski and Jared Spool talk web form design & User Experience
-permalink: 2009-10-07-luke-wroblewski-and-jared-spool-talk-web-form-design-ux
+permalink: luke-wroblewski-and-jared-spool-talk-web-form-design-ux
 published: true
 reference: http://www.uie.com/BSAL/trans/Luke_Wroblewski_VS_Followup_transcript.html
 author: Nathan Ziarek
