@@ -2,7 +2,7 @@
 layout: article
 title: Annotations!
 excerpt: An excellent release that makes Google Analytics a superb tracking tool.
-permalink: 2009-12-07-annotations
+permalink: annotations
 published: true
 reference: http://analytics.blogspot.com/2009/12/holiday-bonus-more-great-features.html
 author: Nathan Ziarek
