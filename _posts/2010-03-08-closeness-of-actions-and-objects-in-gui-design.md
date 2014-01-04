@@ -2,7 +2,7 @@
 layout: article
 title: Closeness of Actions and Objects in GUI Design
 excerpt: 
-permalink: 2010-03-08-closeness-of-actions-and-objects-in-gui-design
+permalink: closeness-of-actions-and-objects-in-gui-design
 categories: ux 
 published: true
 reference: http://bit.ly/chmb3z
