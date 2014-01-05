@@ -39,6 +39,13 @@ module.exports = function(grunt) {
 					dest: '../interface/v<%= pkg.version %>/',
 					flatten: true,
 					filter: 'isFile'
+				}, {
+					expand: true,
+					cwd: 'icons/',
+					src: 'icon-*',
+					dest: '../interface/v<%= pkg.version %>/',
+					flatten: true,
+					filter: 'isFile'
 				}
 			]
 		}

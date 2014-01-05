@@ -5,6 +5,11 @@ layout: none
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 	    <title>{{ site.name | xml_escape }}</title>
+		<image>
+			<url>http://latetotheparty.com/interface/v{{ site.version }}/icon-512.png</url>
+			<title>{{ site.name | xml_escape }}</title>
+			<link>{{ site.url }}</link>
+		</image>
 	    <description>{{ site.description | xml_escape }}</description>
 	    <link>{{ site.url }}</link>
 	    <atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml" />
