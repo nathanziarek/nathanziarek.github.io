@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+	    <title>Late to the Party</title>
+	    <description>Please write a description. Anyone. Someone?</description>
+	    <link>http://latetotheparty.co</link>
+	    <atom:link href="http://latetotheparty.co/feed.xml" rel="self" type="application/rss+xml" />
+	    
+	    <item>
+	        <title>Mobile App Best Practices (and Why Mobile Doesn&#39;t Always Win)</title>
+	        <description><![CDATA[&lt;p&gt;Not having a mobile website in 2014 sounds archaic, but for many site owners, it’s really good business sense.&lt;/p&gt;
+                    &lt;img src=&quot;http://www.google-analytics.com/collect?v=1&amp;tid=UA-38685832-1&amp;cid=55555&amp;t=pageview&amp;dp=%2Frss%2Fmobile-app-best-practices&quot;&gt;]]></description>
+	        <pubDate>Sun, 05 Jan 2014 02:00:00 +0000</pubDate>
+	        
+	        <link>http://www.lukew.com/ff/entry.asp?1826</link>
+	        
+	        <guid isPermaLink="true">http://latetotheparty.co/mobile-app-best-practices/3</guid>
+	    </item>
+	   
+	</channel>
+</rss>
