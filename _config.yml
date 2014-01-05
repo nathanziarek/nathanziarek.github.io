@@ -2,4 +2,5 @@ timezone: Chicago
 name: Late to the Party
 description: Please write a description. Anyone. Someone?
 url: http://latetotheparty.co
+exclude: source
 version: 0.0.5
