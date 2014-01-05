@@ -12,7 +12,7 @@ layout: none
 	    <item>
 	        <title>{{ post.title | xml_escape }}</title>
 	        <description>{{ post.content | xml_escape }}
-                    &lt;img src=&quot;http://www.google-analytics.com/collect?v=1&amp;t-id=UA-12345-1&amp;cid=55555&amp;t=pageview&amp;dp=%2frss{{ post.url | cgi_escape }}&quot;&gt;
+                    &lt;img src=&quot;http://www.google-analytics.com/collect?v=1&amp;tid=UA-38685832-1&amp;cid=55555&amp;t=pageview&amp;dp=%2Frss{{ post.url | cgi_escape }}&quot;&gt;
                 </description>
 	        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 	        {% if post.reference %}
