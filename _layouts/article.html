@@ -18,7 +18,8 @@ style: article
 	{% if page.tags %}
 		<p>Source 
 			{% for ref in page.tags %}
-				<a href="{{ ref }}">Source</a> 
+				{% assign words = ref | split: '|' %}
+				<a href="http://{{ words[0] }}">{{ words[1] }}</a> 
 			{% endfor %}
 		</p>
 	{% endif %}
