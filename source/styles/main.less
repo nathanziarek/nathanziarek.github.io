@@ -34,7 +34,8 @@ body {
 				font-family: lttp;
 				content: "\e601";
 				font-size: 32px;
-				transition: font-size .5s ease;
+				transition: font-size .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+				-webkit-transition: font-size .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 			}
 			&:hover {
 				&:before {
@@ -56,6 +57,7 @@ body {
 				color: #333; 
 				text-decoration: none;
 				-webkit-transition: color .5s ease;
+				transition: color .5s ease;
 				&:hover {
 					color: @color
 				}
@@ -70,6 +72,7 @@ body {
 				color: @color; 
 				text-decoration: none;
 				-webkit-transition: color .5s ease;
+				transition: color .5s ease;
 				&:hover {
 					color: lighten(@color, 5%);
 				}
@@ -107,7 +110,8 @@ body {
 						a {
 							color: #333;
 							text-decoration: none;
-							-webkit-transition: color ease .5s
+							-webkit-transition: color ease .5s;
+							transition: color ease .5s;
 						}
 					}
 					p {
@@ -115,7 +119,8 @@ body {
 						font-size: 16px;
 						color: #666;
 						&:before { content: "—"; }
-						-webkit-transition: color ease .5s
+						-webkit-transition: color ease .5s;
+						transition: color ease .5s;
 					}
 					.post-date { display: none; }
 				}
