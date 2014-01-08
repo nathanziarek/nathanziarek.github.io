@@ -83,6 +83,22 @@ body {
 			padding: 0 15px;
 			margin: 10px;
 		}
+		.references {
+			font-size: .9em;
+			a {
+				background: @color-accent;
+				color: darken(@color-accent, 80%);
+				padding: 3px 7px;
+				text-decoration: none;
+				display: inline-block;
+				margin: 0 5px;
+				-webkit-transition: background .5s ease;
+				transition: background .5s ease;
+				&:hover {
+					background: lighten(@color-accent, 5%);
+				}
+			}
+		}
 	}
 	section {
 		width: @content-width;

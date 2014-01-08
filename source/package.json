@@ -1,6 +1,6 @@
 {
   "name": "lttp",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "repository": "http://github.com/nathanziarek/nathanziarek.github.io.git",
   "devDependencies": {
   	"jsdom": "*",
