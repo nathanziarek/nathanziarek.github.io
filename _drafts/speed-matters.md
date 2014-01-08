@@ -1,7 +1,12 @@
 ---
-excerpt: A half-second increase in page load time might cost you 20%.
-categories: PageSpeed SEO UX
-published: false
+layout: article
+title: 
+excerpt: 
+permalink: 
+published: true
+reference: 
+author: Nathan Ziarek
+categories: []
 ---
 
 #Speed Matters

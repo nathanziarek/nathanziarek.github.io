@@ -1,4 +1,17 @@
 ---
+layout: article
+title: 
+excerpt: 
+permalink: 
+published: false
+reference: 
+author: Nathan Ziarek
+categories: []
+---
+
+
+
+---
 title: Writing Exceptional URLs
 excerpt: It's easy to get lulled into thinking URLs don't matter...but they're part of the interface. Learn to love them.
 categories: URLs SEO UX Canonical
