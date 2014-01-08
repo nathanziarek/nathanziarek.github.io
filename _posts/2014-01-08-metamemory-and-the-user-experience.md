@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Metamemory and the User Experience
-excerpt: 
+excerpt: The Internet has become an “external part” of our memory systems.
 permalink: metamemory-and-the-user-experience
 published: true
 reference: http://uxmag.com/articles/metamemory-and-the-user-experience
