@@ -6,8 +6,8 @@ permalink: metamemory-and-the-user-experience
 published: true
 reference: http://uxmag.com/articles/metamemory-and-the-user-experience
 author: Nathan Ziarek
-categories: [psychology, blah]
-tags: [A:, B]
+categories: [psychology]
+tags: [twileshare.com/sites/default/files/uploads/Science-2011-Sparrow-776-8.pdf, uxmag.com/articles/metamemory-and-the-user-experience]
 ---
 
 > An article published in [Science Magazine] (PDF) in June 2011 provides evidence that the Internet has become an “external part” of our memory systems. Rather than remembering information, we seem to have “outsourced” this effortful task to an entity other than ourselves.
