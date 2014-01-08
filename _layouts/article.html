@@ -15,8 +15,12 @@ style: article
 	
 	<!--<p>by <span itemprop="author">{{page.author}}</span>-->
 	
-	{% if page.reference %}
-	<p><a href="{{ page.reference }}">Source</a></p>
+	{% if page.tags %}
+		<p>Source 
+			{% for ref in page.tags %}
+				<a href="{{ ref }}">Source</a> 
+			{% endfor %}
+		</p>
 	{% endif %}
 	
 </article>
