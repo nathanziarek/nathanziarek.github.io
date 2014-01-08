@@ -19,7 +19,7 @@ style: article
 		<div class="references">Reference 
 			{% for ref in page.references %}
 				{% assign words = ref | split: '|' %}
-				<a href="http://{{ words[0] }}">{{ words[1] }}</a> 
+				<a href="http://{{ words[0] }}" target="_blank">{{ words[1] }}</a> 
 			{% endfor %}
 		</div>
 	{% endif %}
