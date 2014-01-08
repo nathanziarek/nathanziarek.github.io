@@ -5,7 +5,6 @@ excerpt:
 permalink: metamemory-and-the-user-experience
 published: true
 reference: http://uxmag.com/articles/metamemory-and-the-user-experience
-sources: [http://uxmag.com/articles/metamemory-and-the-user-experience|UX Magazine, http://twileshare.com/sites/default/files/uploads/Science-2011-Sparrow-776-8.pdf|Science Magazine]
 author: Nathan Ziarek
 ---
 
