@@ -30,7 +30,7 @@ layout: none
         {% if page.excerpt != undefined %}<meta name="description" content="{{ page.excerpt }}">{% endif %}
 		{% if page.categories != undefined %}<meta name="keywords" content="{% for category in page.categories %}{{ category }},{% endfor %}">{% endif %}
 		<meta name="author" content="{{ page.author }}">
-		<link rel="canonical" href="{{ site.url }}/{{ page.url }}/"/>
+		<link rel="canonical" href="{{ site.url }}{{ page.url }}/"/>
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@nathanziarek">
         <meta name="twitter:creator" content="@nathanziarek">
@@ -40,7 +40,7 @@ layout: none
         <meta name="twitter:image" content="{{ site.url }}/interface/v{{ site.version }}/icon-512.png">
         <meta property="og:title" content="{{ page.title }}" />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="{{ site.url }}/{{ page.url }}/" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}/" />
         <meta property="article:author" content="http://www.linkedin.com/in/nathanziarek" />
         <meta property="article:author" content="https://www.facebook.com/nathanziarek" />
 		{% if page.categories != undefined %}<meta property="article:tag" content="{% for category in page.categories %}{{ category }},{% endfor %}">{% endif %}
