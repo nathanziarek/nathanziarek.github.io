@@ -44,7 +44,6 @@ layout: none
         <meta property="article:author" content="http://www.linkedin.com/in/nathanziarek" />
         <meta property="article:author" content="https://www.facebook.com/nathanziarek" />
 		{% if page.categories != undefined %}<meta property="article:tag" content="{% for category in page.categories %}{{ category }},{% endfor %}">{% endif %}
-        <meta property="article:tag" content="{{ page.categories }}">
         <link rel="alternate" type="application/rss+xml" title="Late to the Party" href="{{ site.url }}/rss.xml" />
 	</head>
 	<body class="{{ page.style }}">
