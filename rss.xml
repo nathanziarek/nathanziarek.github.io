@@ -23,9 +23,9 @@ layout: none
 	        {% if post.reference %}
 	        <link>{{ post.reference }}</link>
 	        {% else %}
-	        <link>{{ site.url }}{{ post.url }}</link>
+	        <link>{{ site.url }}{{ post.url }}/</link>
 	        {% endif %}
-	        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+	        <guid isPermaLink="true">{{ site.url }}{{ post.url }}/</guid>
 	    </item>
 	    {% endfor %}
 	</channel>
