@@ -5,6 +5,7 @@ excerpt: The Internet has become an “external part” of our memory systems.
 permalink: metamemory-and-the-user-experience
 published: true
 reference: http://uxmag.com/articles/metamemory-and-the-user-experience
+references: [http://uxmag.com/articles/metamemory-and-the-user-experience, http://twileshare.com/sites/default/files/uploads/Science-2011-Sparrow-776-8.pdf]
 author: Nathan Ziarek
 categories: [psychology]
 ---
