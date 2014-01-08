@@ -15,9 +15,9 @@ style: article
 	
 	<!--<p>by <span itemprop="author">{{page.author}}</span>-->
 	
-	{% if page.tags %}
-		<p>Source 
-			{% for ref in page.tags %}
+	{% if page.references %}
+		<p>Reference 
+			{% for ref in page.references %}
 				{% assign words = ref | split: '|' %}
 				<a href="http://{{ words[0] }}">{{ words[1] }}</a> 
 			{% endfor %}
