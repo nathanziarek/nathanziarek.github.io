@@ -35,7 +35,7 @@ layout: none
         <meta name="twitter:site" content="@nathanziarek">
         <meta name="twitter:creator" content="@nathanziarek">
         <meta name="twitter:title" content="{{ page.title }}">
-        <meta name="twitter:description" content="{{ page.excerpt | cgi_escape }}">
+        <meta name="twitter:description" content="{{ page.excerpt | replace: '"', '\"' }}">
         <meta name="twitter:domain" content="{{ site.url }}">
         <meta name="twitter:image" content="{{ site.url }}/interface/v{{ site.version }}/icon-512.png">
         <meta property="og:title" content="{{ page.title }}" />
