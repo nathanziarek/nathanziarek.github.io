@@ -3,4 +3,4 @@ name: Late to the Party
 description: Please write a description. Anyone. Someone?
 url: http://latetotheparty.co
 exclude: [source, README.md]
-version: 0.0.10
+version: 0.1.0
