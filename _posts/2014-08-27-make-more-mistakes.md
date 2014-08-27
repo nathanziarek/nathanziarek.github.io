@@ -9,6 +9,10 @@ categories: [ux, design thinking]
 references: [www.npr.org/templates/transcript/transcript.php?storyId=174037793|NPR TED Radio Hour,muledesign.com/2010/12/giving-better-design-feedback|Mule Design]
 ---
 
+
+
+
+
 From a [TED Talk featuring Margaret Heffernan]:
 
 > So how do organizations think? Well, for the most part they don't. And that isn't because they do not want to, it's really because they can't. And they can't because the people inside of them are too afraid of conflict.
