@@ -5,13 +5,9 @@ excerpt: Fear of mistakes impedes creativity.
 permalink: make-more-mistakes
 published: true
 author: Nathan Ziarek
-categories: [ux, design thinking]
+categories: [ux, design-thinking]
 references: [www.npr.org/templates/transcript/transcript.php?storyId=174037793|NPR TED Radio Hour,muledesign.com/2010/12/giving-better-design-feedback|Mule Design]
 ---
-
-
-
-
 
 From a [TED Talk featuring Margaret Heffernan]:
 
