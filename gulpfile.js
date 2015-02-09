@@ -31,7 +31,8 @@ var gulp = require('gulp')
     });
     gulp.task('concat-scripts', ['clean-build', 'update-packages'], function(cb){
         var librarySources = require('bower-files')();
-            librarySources.js.push('source/scripts/**/*.js', "bower_components/variables.js");
+            librarySources.js.unshift('source/scripts/init.js');
+            librarySources.js.push('source/scripts/app.js');
         gulp.src( librarySources.js )
             .pipe( sourcemaps.init() )
             .pipe( concat('main.js', {newLine: ';'} ) )

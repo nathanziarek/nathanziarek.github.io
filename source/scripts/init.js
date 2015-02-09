@@ -5,7 +5,8 @@ WebFontConfig = {
 		families: ['Alegreya+Sans:100,400,700,400italic,700italic']
 	},
 	active: function() {
-		$("body.home ul").packery({
+        var container = $('body.home ul')[0];
+        var myPackery = new Packery( container, {
 			itemSelector: 'li',
 			gutter: 30
 		});

@@ -2,5 +2,5 @@ timezone: Chicago
 name: Late to the Party
 description: Please write a description. Anyone. Someone?
 url: http://latetotheparty.co
-exclude: [source, README.md]
+exclude: [source, README.md, package.json, gulpfile.js, CNAME, bower.json, bower_components, .gitignore, .git, node_modules]
 version: 0.1.1
