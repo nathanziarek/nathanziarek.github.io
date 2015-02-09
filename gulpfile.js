@@ -62,8 +62,25 @@ var gulp = require('gulp')
 /* Filters */
     var filterCSS = gulpFilter(["**/*.css"]);
     var filterJS = gulpFilter(["**/*.js"]);
-    var filterHTML = gulpFilter(["**/*.html"]);
     var filterImg = gulpFilter(["**/*.png"]);
+
+    gulp.task('crush', ['default'],  function() {
+        gulp.src('interface/*.*')
+
+            .pipe(filterCSS)
+            .pipe(csso())
+            .pipe(filterCSS.restore())
+
+            .pipe(filterJS)
+            .pipe(uglify())
+            .pipe(filterJS.restore())
+
+            .pipe(filterImg)
+            .pipe(imagemin())
+            .pipe(filterImg.restore())
+
+            .pipe(gulp.dest('interface/'))
+    });
 
 /* Utilities */
     gulp.task('update-packages', ['clean-packages'], function (cb) {
