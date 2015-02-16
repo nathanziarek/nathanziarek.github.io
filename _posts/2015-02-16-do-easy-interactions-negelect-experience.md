@@ -7,7 +7,7 @@ published: true
 author: Nathan Ziarek
 categories: [ux,usability]
 references: [www.wired.com/2015/02/on-the-joy-of-mastery/|Wired]
-cc: [arthurascii]
+cc: [@arthurascii]
 ---
 
 The title is probably a *touch* of click bate, but there's a lot of merit to this article.
