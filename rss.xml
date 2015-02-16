@@ -6,7 +6,7 @@ layout: none
 	<channel>
 	    <title>{{ site.name | xml_escape }}</title>
 		<image>
-			<url>http://latetotheparty.com/interface/v{{ site.version }}/icon-512.png</url>
+			<url>http://latetotheparty.co/icon-512.png</url>
 			<title>{{ site.name | xml_escape }}</title>
 			<link>{{ site.url }}</link>
 		</image>
