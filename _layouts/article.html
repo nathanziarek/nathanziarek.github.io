@@ -21,6 +21,10 @@ style: article
 				{% assign words = ref | split: '|' %}
 				<a href="http://{{ words[0] }}" target="_blank">{{ words[1] }}</a> 
 			{% endfor %}
+            {% for via in page.cc %}
+				<a href="http://twitter.com/{{ via }}" target="_blank">{{ via }}</a>
+			{% endfor %}
+
 		</div>
 	{% endif %}
 	
