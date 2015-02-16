@@ -2,12 +2,13 @@
 layout: article
 title: Do Easy Interactions Neglect Experience?
 excerpt: Wired discusses why we should design some things to be difficult to use.
-permalink: do-easy-interactions-negelect-experience
+permalink: do-easy-interactions-neglect-experience
 published: true
 author: Nathan Ziarek
 categories: [ux,usability]
 references: [www.wired.com/2015/02/on-the-joy-of-mastery/|Wired]
-cc: [@arthurascii]
+reference: http://www.wired.com/2015/02/on-the-joy-of-mastery/
+cc: [arthurascii]
 ---
 
 The title is probably a *touch* of click bate, but there's a lot of merit to this article.
