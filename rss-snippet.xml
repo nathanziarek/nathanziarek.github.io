@@ -13,7 +13,7 @@ layout: none
 	    <description>Snippets of Late to the Party for social sharing.</description>
 	    <link>{{ site.url }}</link>
 	    <atom:link href="{{ site.url }}/rss-snippet.xml" rel="self" type="application/rss+xml" />
-	    {% for post in site.posts limit:1 %}
+	    {% for post in site.posts limit:5 %}
 	    <item>
 	        <title>{{ post.title | xml_escape }}</title>
 	        <description>{{ post.title | xml_escape }} {{ site.url }}{{ post.url }}/ {% if post.cc %}/cc {% for via in post.cc %}@{{via}} {% endfor %}{% endif %}</description>

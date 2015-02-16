@@ -13,7 +13,7 @@ layout: none
 	    <description>{{ site.description | xml_escape }}</description>
 	    <link>{{ site.url }}</link>
 	    <atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml" />
-	    {% for post in site.posts limit:10 %}
+	    {% for post in site.posts limit:5 %}
 	    <item>
 	        <title>{{ post.title | xml_escape }}</title>
 	        <description><![CDATA[ {{ post.content }}
