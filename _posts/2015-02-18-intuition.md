@@ -24,9 +24,9 @@ As interface designers we use all manner of tools to make the interface easier t
 
 Our techniques lower the learning curve for a new user, but they never eliminate it. Intuition requires *immediate* understanding with no prior knowledge.
 
-The very idea of an intuitive interface supposes some sort of universal truth, that there is one true way to accomplish a given task. This ignores context, the differences in user need and strikes at the core of user experience.
+The very idea of an intuitive interface assumes some sort of universal truth, that there is one true way to accomplish a given task. This ignores context, the differences in user need and strikes at the core of user experience.
 
-What do you think? Am I being too pedantic? 
+What do you think? Am I being too pedantic? Or, should we wipe the word from the lips of friends and foes alike?
 
 [ThatWord]: https://www.youtube.com/watch?v=G2y8Sx4B2Sk
 [Definition]: http://dictionary.reference.com/browse/intuition
