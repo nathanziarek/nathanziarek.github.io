@@ -18,7 +18,7 @@ Working on an old, sprawling piece of software, written by hundreds of engineers
 
 That's probably not fair. My stakeholders really do want an interface so seamless and easy to use that it's intuitive. The problem? It's just not possible.
 
-> [Intuition][Definition]: An immediate cognition of an object not inferred or determined by a previous cognition of the same object.
+> [Intuition][Definition]--An immediate cognition of an object not inferred or determined by a previous cognition of the same object.
 
 As interface designers we use all manner of tools to make the interface easier to grasp--[affordances][affordance] makes items look clickable and design patterns reuse common components, relying on user's preconceived notions.
 
