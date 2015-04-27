@@ -2,8 +2,8 @@
 layout: article
 title: The Much Maligned Hamburger Menu
 excerpt: Is it the hamburger menu, or is it lax information architecture?
-permalink: the-much-aligned-hambuger-menu
-published: true
+permalink: the-much-maligned-hambuger-menu
+published: false
 author: Nathan Ziarek
 categories: [ux]
 references: [www.lukew.com/ff/entry.asp?1945|LukeW,www.nngroup.com/articles/hamburger-menu-vs-pizza/|NNGroup,redbooth.com/blog/hamburger-menu-iphone-app|Redbooth,thenextweb.com/dd/2014/04/08/ux-designers-side-drawer-navigation-costing-half-user-engagement/|The Next Web,www.webpagesthatsuck.com/mysterymeatnavigation00.html|Web Pages That Suck]
