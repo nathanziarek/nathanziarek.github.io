@@ -2,7 +2,7 @@
 layout: article
 title: The Much Maligned Hamburger Menu
 excerpt: Is it the hamburger menu, or is it lax information architecture?
-permalink: building-better-tv-interfaces
+permalink: the-much-aligned-hambuger-menu
 published: true
 author: Nathan Ziarek
 categories: [ux]
