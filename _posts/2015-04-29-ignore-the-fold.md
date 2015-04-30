@@ -11,7 +11,7 @@ references: [bit.ly/1HSDhw2|Luke W,blog.chartbeat.com/2013/08/12/scroll-behavior
 
 *(I should probably consider just forwarding this blog over to [Luke W]'s site. Every time he posts I want to write about it!)*
 
-The "fold" is on of those web concepts that just won't die. Unlike some of my other colleagues, I think that's for pretty good reason--even though what constitutes *above* or *below* the fold changes with the myriad of devices out there, the general idea that something at the top of the screen will be the most viewed *feels* obvious. *Obviousness* doesn't equal *rightness*, but it's easy to see why idea carries on.
+The "fold" is one of those web concepts that just won't die. Unlike some of my other colleagues, I think that's for pretty good reason--even though what constitutes *above* or *below* the fold changes with the myriad of devices out there, the general idea that something at the top of the screen will be the most viewed *feels* obvious. *Obviousness* doesn't equal *rightness*, but it's easy to see why idea carries on.
 
 Much like the concept of *[banner blindness]* (where visitors ignore banner-like components of a page), this research further shows that users adapt to route around the impediments we put in their way. That the user begins to scroll **before the page has loaded** is especially interesting. Unlike ignoring ad banners, this shows users have almost built muscle memory to scroll first and ask questions later.
 
