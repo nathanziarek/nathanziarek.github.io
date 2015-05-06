@@ -13,7 +13,7 @@ references: [www.uxmatters.com/mt/archives/2015/05/why-its-totally-okay-to-use-a
 
 > Most importantly, design for actual devices and users. Don’t hold onto old assumptions or standard practices from other computing environments. Don’t try to turn your Web site into something mobile friendly simply by changing its navigation bar into a menu. Instead, re-architect them, and design solutions that work for users experiencing the unique user interfaces of tablets and mobile handsets.
 
-My only real complaint with the whole don't-use-hamburger-menu movement was its one-size-fits-all approach. Steven is absolutely right.
+My only real complaint with the whole don't-use-hamburger-menu movement was its one-size-fits-all approach. Steven is absolutely right--design solutions, not mantras. 
 
 Great article. 
 
