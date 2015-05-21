@@ -110,6 +110,15 @@ body {
 				}
 			}
 		}
+        video {
+            @overlap: 100px;
+            margin-left: (-1 * @overlap / 2);
+            width: @content-width + @overlap;
+            height: auto;
+            box-shadow: rgba(0,0,0,.3) 0 0 10px;
+            border-radius: 2px;
+            overflow: hidden;
+        }
 	}
 	section {
 		width: @content-width;
