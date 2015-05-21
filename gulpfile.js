@@ -13,10 +13,11 @@ var gulp = require('gulp')
     sourcemaps = require('gulp-sourcemaps'),
     imagemin = require('gulp-imagemin'),
     flatten = require('gulp-flatten'),
-    bump = require('gulp-bump');
+    bump = require('gulp-bump'),
+    inline_base64 = require('gulp-inline-base64');
 
 /* Default Tasks */
-    gulp.task('default', ['build-less', 'concat-scripts', 'copy-glyphs', 'copy-icons'],  function() {});
+    gulp.task('default', ['build-less', 'concat-scripts', 'copy-icons'],  function() {});
 
 /* Builders */
     gulp.task('build-less', ['clean-build', 'update-packages'], function(cb) {
@@ -24,6 +25,10 @@ var gulp = require('gulp')
             .src("source/styles/*.less")
             .pipe( sourcemaps.init() )
             .pipe( less() )
+            .pipe(inline_base64({
+                baseDir: "source/",
+                debug: true
+            }))
             .pipe( autoprefixer() )
             .pipe( sourcemaps.write() )
             .pipe( gulp.dest("interface/") )
@@ -39,12 +44,6 @@ var gulp = require('gulp')
             .pipe( sourcemaps.write() )
             .pipe( gulp.dest('interface/') )
             .on( "end", cb );
-    });
-    gulp.task('copy-glyphs', ['clean-build'], function(cb){
-      gulp.src(['source/glyphs/**/*.svg', 'source/glyphs/**/*.ttf', 'source/glyphs/**/*.woff', 'source/glyphs/**/*.eot'])
-        .pipe(flatten())
-        .pipe(gulp.dest('interface'))
-        .on( "end", cb );
     });
     gulp.task('copy-icons', ['clean-build'], function(cb){
       gulp.src(['source/icons/*.png', 'source/icons/*.ico'])

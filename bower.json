@@ -1,21 +1,32 @@
 {
-  "name": "latetotheparty.co",
-  "version": "0.0.1",
-  "homepage": "https://github.com/nathanziarek/nathanziarek.github.io",
-  "authors": [
-    "Nathan Ziarek <nziarek@gmail.com>"
-  ],
-  "dependencies": {
-  	"jquery": "~2.0.3",
-    "packery": "~1.2.0",
-    "webfontloader": "https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"
-  },
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+    "name": "latetotheparty.co",
+    "version": "0.0.1",
+    "homepage": "https://github.com/nathanziarek/nathanziarek.github.io",
+    "authors": [
+        "Nathan Ziarek <nziarek@gmail.com>"
+    ],
+    "dependencies": {
+        "jquery": "~2",
+        "packery": "~1",
+        "webfontloader": "https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"
+    },
+    "overrides": {
+        "outlayer": {
+            "main": [
+                "item.js",
+                "outlayer.js"
+            ]
+        },
+        "packery": {
+            "main": "dist/packery.pkgd.js"
+        }
+    },
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
 }
