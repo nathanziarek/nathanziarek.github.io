@@ -6,7 +6,7 @@ permalink: playing-the-long-game
 published: true
 author: Nathan Ziarek
 categories: [politics, Obama]
-references: [TPM|talkingpointsmemo.com/edblog/obama-on-the-hoofbeats-of-history]
+references: [talkingpointsmemo.com/edblog/obama-on-the-hoofbeats-of-history|TPM]
 ---
 
 (I believe this is *Late to the Party*'s first ever political post. Don't read this as a for-or-against article. Take it as an interesting reminder that *focus* is important.)
