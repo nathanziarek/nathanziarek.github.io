@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Playing The Long Game?
-excerpt: 
+excerpt: President Obamas's legacy took a big turn this summer. 
 permalink: playing-the-long-game
 published: true
 author: Nathan Ziarek
