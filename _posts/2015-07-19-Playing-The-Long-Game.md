@@ -3,7 +3,7 @@ layout: article
 title: Playing The Long Game?
 excerpt: 
 permalink: playing-the-long-game
-published: false
+published: true
 author: Nathan Ziarek
 categories: [politics, Obama]
 references: [TPM|talkingpointsmemo.com/edblog/obama-on-the-hoofbeats-of-history]
