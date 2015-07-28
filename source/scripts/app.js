@@ -6,7 +6,7 @@ $( function() {
 
     var container = $('body.home ul')[0];
     console.log(container);
-    if(!container) {
+    if(container != undefined) {
         var myPackery = new Packery( container, {
             itemSelector: 'li',
             gutter: 30
