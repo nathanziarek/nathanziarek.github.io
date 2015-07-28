@@ -12,7 +12,7 @@ It's really kind of a shame this article by Marli Mesibov was so directed at cop
 
 >Every project I work on **involves some measure of user research**, whether I work on my own or with an official research team. Sometimes I observe users as they use products. Other times I set up tree tests to see how users react to my terminology and nomenclature. When it’s all over, I work with the client to establish a message they want to communicate. 
 >
->—[How Copywriting Can Benefit From User Research](http://www.smashingmagazine.com/2015/07/how-copywriting-can-benefit-from-user-research/)
+>—Marli Mesibov, [How Copywriting Can Benefit From User Research](http://www.smashingmagazine.com/2015/07/how-copywriting-can-benefit-from-user-research/)
 
 I've been trying to make the point lately that ***user experience** is everyone's job*. When I see tools like tree mapping or field research--tools commonly referred to as part of the UX toolkit--in use outside of a typical UX department, it only goes to prove that point.
 
