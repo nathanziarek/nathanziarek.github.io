@@ -8,7 +8,7 @@ author: Nathan Ziarek
 categories: [user research, copywriting, ux]
 ---
 
-It's really kind of a shame this article was so directed at copywriters. It's a great general piece on the benefits of user research.
+It's really kind of a shame this article by Marli Mesibov was so directed at copywriters. It's a great general piece on the benefits of user research.
 
 >Every project I work on **involves some measure of user research**, whether I work on my own or with an official research team. Sometimes I observe users as they use products. Other times I set up tree tests to see how users react to my terminology and nomenclature. When it’s all over, I work with the client to establish a message they want to communicate. 
 >
