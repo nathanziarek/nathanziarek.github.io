@@ -103,7 +103,7 @@ body {
 				}
 			}
 		}
-        video {
+        video, img {
             @overlap: 100px;
             margin-left: (-1 * @overlap / 2);
             width: @content-width + @overlap;
@@ -150,11 +150,12 @@ body {
 						}
 					}
 					p {
-						display: inline;
+						//display: inline;
 						font-size: 16px;
 						color: #666;
-						&:before { content: "—"; }
+						//&:before { content: "—"; }
 						transition: color ease .5s;
+                        margin: 0;
 					}
 					.post-date { display: none; }
 				}
@@ -242,7 +243,7 @@ body {
             h2:extend(body article p) {}
             h3:extend(body article p) {}
             ul:extend(body article p) {}
-            video {
+            video, img {
                 width: 100%;
                 margin-left: 0;
             }
