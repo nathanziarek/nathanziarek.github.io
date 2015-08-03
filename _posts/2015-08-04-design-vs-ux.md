@@ -22,8 +22,6 @@ For one, design is not how it looks.
 
 Even if design were simply about the appearance, that's an integral part of the user's experience. What they see influences how they feel.
 
-This image might indicate a lack of usability testing. 
-
-More likely, we're seeing the outcome of a complex dance balancing the needs of your audience, restrictions of the technology, desires of the business and direction of the vision.
+This image might indicate a lack of usability testing. More likely, we're seeing the outcome of a complex dance balancing the needs of your audience, restrictions of the technology, desires of the business and direction of the vision.
 
 What we're definitely not seeing is *Design vs UX*.
