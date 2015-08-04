@@ -37,11 +37,21 @@ layout: none
         <meta name="twitter:title" content="{{ page.title }}">
         <meta name="twitter:description" content="{{ page.excerpt | replace: '"', '\"' }}">
         <meta name="twitter:domain" content="{{ site.url }}">
-        <meta name="twitter:image" content="{{ site.url }}/interface/icon-512.png">
+        {% if page.image == undefined %}
+            <meta name="twitter:image" content="{{ site.url }}/interface/icon-512.png">
+        {% else %}
+            <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+        {% endif %}
         <meta property="twitter:account_id" content="4503599628005006" />
         <meta property="og:title" content="{{ page.title }}" />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="{{ site.url }}{{ page.url }}/" />
+        {% if page.image == undefined %}
+            <meta property="og:image" content="{{ site.url }}/interface/icon-512.png">
+        {% else %}
+            <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+        {% endif %}
+        <meta property="og:description" content="{{ page.excerpt | replace: '"', '\"' }}">
         <meta property="article:author" content="http://www.linkedin.com/in/nathanziarek" />
         <meta property="article:author" content="https://www.facebook.com/nathanziarek" />
 		{% if page.categories != undefined %}<meta property="article:tag" content="{% for category in page.categories %}{{ category }},{% endfor %}">{% endif %}

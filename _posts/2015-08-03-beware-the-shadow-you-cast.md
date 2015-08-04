@@ -6,6 +6,7 @@ permalink: beware-the-shadow-you-cast
 published: true
 author: Nathan Ziarek
 categories: [ux]
+image: /objects/sketch-notes.jpg
 ---
 
 A mentor once told me to *beware the shadow you cast*. When you're in a position of influence--whether owing to your status within an organization or a bit of crucial expertise--you have to be incredibly mindful of your interactions. Your response and tone (frustration, joy, confidence) take on a heightened meaning when you're the person others are looking to.

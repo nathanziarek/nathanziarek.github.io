@@ -6,6 +6,7 @@ permalink: design-vs-ux
 published: true
 author: Nathan Ziarek
 categories: [ux,design]
+image: /objects/design-vs-ux.jpg
 ---
 
 Every few months this image (or one *just* like it) makes the rounds with the caption "Design vs. UX".
