@@ -1,28 +1,22 @@
 ---
 layout: article
-title: Design vs. UX?
-excerpt: Isn't design a part of the user experience?
-permalink: design-vs-ux
+title: UGH Interface of the Week
+excerpt: Who at Pintrest thought this was a good idea?
+permalink: ugh-interface-of-the-week
 published: true
 author: Nathan Ziarek
-categories: [ux,design]
+categories: [ux]
 image: /objects/design-vs-ux.jpg
 ---
 
-Every few months this image (or one *just* like it) makes the rounds with the caption "Design vs. UX".
+Oh, to be a fly on the wall when this interaction was approved! 
 
-<img src="/objects/design-vs-ux.jpg" alt="Design vs. UX" width="1024" height="430" />
-
-It's clever, but wrong and  ... dangerously misleading.
-
-For one, design is not how it looks.
-
-> Most people make the mistake of thinking design is what it looks like. People think it’s this veneer – that the designers are handed this box and told, 'Make it look good!' That’s not what we think design is. It’s not just what it looks like and feels like. Design is how it works.
+> We'll take up half the screen with an obtrusive **sign up** prompt. Then, when the user tries scrolling to see more, we'll creep the overlay up until it covers the entire screen.
 >
->—Steve Jobs
+> We're gonna have **so** many customers!
+>
+>--Hypothetical Pintrest Marketing <strike>Demon</strike> Employee
 
-Even if design were simply about the appearance, that's an integral part of the user's experience. What they see influences how they feel.
+<video poster="/objects/pintrest.m4v.png" src="/objects/pintrest.m4v" width="1920" height="1456" type="video/mp4" controls></video>
 
-This image might indicate a lack of usability testing. More likely, we're seeing the outcome of a complex dance balancing the needs of your audience, restrictions of the technology, desires of the business and direction of the vision.
-
-What we're definitely not seeing is *Design vs UX*.
+I'm sure it drives a fantastic conversion rate. It doesn't matter that it likely annoys new customers and starts their journey with Pintrest on a sour note.
