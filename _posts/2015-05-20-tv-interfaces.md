@@ -7,7 +7,7 @@ published: true
 author: Nathan Ziarek
 categories: [ux,appletv]
 video: /objects/global-queue.m4v
-image: /objects/global-queue.png
+image: /objects/global-queue.m4v.png
 ---
 
 A few years back, my wife and I cut the cord and cancelled DirecTV. It wasn't due to any anti-TV zealotry--I still probably watch more TV than most people would consider healthy--but we wanted to save a few bucks and get off the couch a bit more. Honestly, with the huge array of options available--a Vizio smart TV, couple of AppleTVs, a Chromecast, Netflix, iTunes--I figured we really weren't giving up much.
@@ -68,7 +68,7 @@ Selecting any piece of content would launch the appropriate app and take you dir
 
 I have a number of items bookmarked in the five or six services I use, and I *never* remember them when I'm ready to shut down in front of the TV. A simple global queue stops me from having to remember and hunt down my content. Once I've subscribed to *House of Cards*, the new season will just get pushed to my queue.
 
-<video poster="/objects/global-queue.png" src="/objects/global-queue.m4v" width="1280" height="720" type="video/mp4" controls></video>
+<video poster="/objects/global-queue.m4v.png" src="/objects/global-queue.m4v" width="1280" height="720" type="video/mp4" controls></video>
 
 ### Information Architecture
 
@@ -85,7 +85,7 @@ Instead, I'd propose that applications register as one of a few types:
 I'm sure this list is missing something--it isn't intended to be a complete taxonomy--but automatic categorization has a few benefits. It reduces clutter on the screen without expecting users to organize their apps manually (most wouldn't anyway--read up on the [paradox of the active user][paradox] for more info) and it keeps initial decision-making low.
 With the screen clear of icon debris, we now have an opportunity to enable another time-saving enhancement: a scrolling global-queue list of your most recent content.
 
-<video poster="/objects/information-architecture-home.png" src="/objects/information-architecture-home.m4v" width="1280" height="720" type="video/mp4" controls></video>
+<video poster="/objects/information-architecture-home.m4v.png" src="/objects/information-architecture-home.m4v" width="1280" height="720" type="video/mp4" controls></video>
 
 ## Streams
 
@@ -97,7 +97,7 @@ The Apple Watch has me thinking more about specific interactions that lead to co
 
 I watch a lot of college hoops. Like any good sports nut, I'm constantly interested in the stats. *How many fouls does he have?* or *How many assists is that?* While I can keep my iPad handy at all times, it doesn't really work when watching with a group. I'm not interested in being the stats announcer.
 
-<video src="/objects/data-stream.m4v" poster="/objects/data-stream.png" width="1280" height="720" type="video/mp4" controls></video>
+<video src="/objects/data-stream.m4v" poster="/objects/data-stream.m4v.png" width="1280" height="720" type="video/mp4" controls></video>
 
 This is something that could be easily misused, but it isn't difficult to foresee scenarios in any type of television where having some behind-the-scenes or more detailed information would be useful and build a greater connection between the viewer and the content.
 
@@ -109,7 +109,7 @@ Taking this a small step further, if I'm ok with the intrusion of the ticker, wh
 
 Tickers would work much like they work on the Apple Watch, or how Google Now works for Android devices. Applications can provide data to a standard interface--maybe a notification like on a PC or a news-ticker like on CNN--and that data will simply scroll past.
 
-<video src="/objects/glances.m4v" poster="/objects/glances.png" width="1280" height="720" type="video/mp4" controls></video>
+<video src="/objects/glances.m4v" poster="/objects/glances.m4v.png" width="1280" height="720" type="video/mp4" controls></video>
 
 We'll have to work out some type of "do not disturb" functionality, and in-practice the constant intrusion might be too much, but I'm tired of CNN scrollers with late-breaking news about the Kardashians. I can't be the only one.
 
