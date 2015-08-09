@@ -6,6 +6,7 @@ permalink: building-better-tv-interfaces
 published: true
 author: Nathan Ziarek
 categories: [ux,appletv]
+video: /objects/global-queue.m4v
 ---
 
 A few years back, my wife and I cut the cord and cancelled DirecTV. It wasn't due to any anti-TV zealotry--I still probably watch more TV than most people would consider healthy--but we wanted to save a few bucks and get off the couch a bit more. Honestly, with the huge array of options available--a Vizio smart TV, couple of AppleTVs, a Chromecast, Netflix, iTunes--I figured we really weren't giving up much.
