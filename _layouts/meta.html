@@ -31,7 +31,6 @@ layout: none
 		{% if page.categories != undefined %}<meta name="keywords" content="{% for category in page.categories %}{{ category }},{% endfor %}">{% endif %}
 		<meta name="author" content="{{ page.author }}">
 		<link rel="canonical" href="{{ site.url }}{{ page.url }}/"/>
-        <meta name="twitter:card" content="summary">
         {% if page.image == undefined %}
             <meta name="twitter:card" content="summary">
         {% else %}
