@@ -6,7 +6,8 @@ permalink: ugh-interface-of-the-week
 published: true
 author: Nathan Ziarek
 categories: [ux]
-image: /objects/design-vs-ux.jpg
+image: /objects/pintrest.m4v.png
+video: /objects/pintrest.m4v
 ---
 
 Oh, to be a fly on the wall when this interaction was approved! 
