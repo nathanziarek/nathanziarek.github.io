@@ -32,6 +32,11 @@ layout: none
 		<meta name="author" content="{{ page.author }}">
 		<link rel="canonical" href="{{ site.url }}{{ page.url }}/"/>
         <meta name="twitter:card" content="summary">
+        {% if page.image == undefined %}
+            <meta name="twitter:card" content="summary">
+        {% else %}
+            <meta name="twitter:card" content="summary_large_image">
+        {% endif %}
         <meta name="twitter:site" content="@nathanziarek">
         <meta name="twitter:creator" content="@nathanziarek">
         <meta name="twitter:title" content="{{ page.title }}">
@@ -42,6 +47,9 @@ layout: none
         {% else %}
             <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
         {% endif %}
+        {% if page.video != undefined %}
+            <meta name="twitter:player:stream" content="{{ site.url }}{{ page.video }}">
+        {% else %}
         <meta property="twitter:account_id" content="4503599628005006" />
         <meta property="og:title" content="{{ page.title }}" />
         <meta property="og:type" content="article" />
