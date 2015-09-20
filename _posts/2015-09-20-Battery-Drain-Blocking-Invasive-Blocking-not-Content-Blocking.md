@@ -3,11 +3,11 @@ layout: article
 title: Battery Drain Blocking, Invasive Blocking, not Content Blocking
 excerpt: It's not content we're looking to block—it's invasive tracking and data collection.
 permalink: garbage-blocking
-published: false
+published: true
 author: Nathan Ziarek
-categories: []
-references: [URL|TITLE]
----
+categories: [advertising]
+image: http://charleseisenstein.net/wp-content/uploads/2007/06/Garbage20Can20Bonanza.jpg
+--
 
 >…most people just want to block garbage—privacy-invasive trackers, JavaScript that slows our devices and drains our batteries, obtrusive ads that cover the content we’re trying to read.
 >
