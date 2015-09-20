@@ -7,7 +7,7 @@ published: true
 author: Nathan Ziarek
 categories: [advertising]
 image: http://charleseisenstein.net/wp-content/uploads/2007/06/Garbage20Can20Bonanza.jpg
---
+---
 
 >…most people just want to block garbage—privacy-invasive trackers, JavaScript that slows our devices and drains our batteries, obtrusive ads that cover the content we’re trying to read.
 >
