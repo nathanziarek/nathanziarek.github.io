@@ -6,7 +6,7 @@ permalink: garbage-blocking
 published: true
 author: Nathan Ziarek
 categories: [advertising]
-image: /objects/tracker.png
+image: /media/tracker.png
 ---
 
 >…most people just want to block garbage—privacy-invasive trackers, JavaScript that slows our devices and drains our batteries, obtrusive ads that cover the content we’re trying to read.

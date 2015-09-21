@@ -6,14 +6,14 @@ permalink: beware-the-shadow-you-cast
 published: true
 author: Nathan Ziarek
 categories: [ux]
-image: /objects/sketch-notes.jpg
+image: /media/sketch-notes.jpg
 ---
 
 A mentor once told me to *beware the shadow you cast*. When you're in a position of influence--whether owing to your status within an organization or a bit of crucial expertise--you have to be incredibly mindful of your interactions. Your response and tone (frustration, joy, confidence) take on a heightened meaning when you're the person others are looking to.
 
 I was reminded of this phrase as I read the excellent article *[The User Experience of Creative Sprints][1]*. It opens with an image not uncommon to UX articles: an open notebook of beautifully sketched lists and diagrams.
 
-<img src="/objects/sketch-notes.jpg" alt="Sketchnotes" />
+<img src="/media/sketch-notes.jpg" alt="Sketchnotes" />
 
 The most frequently-asked question on the UX forums I visit is some variation on *"How do I get started in UX?"*. User Experience is seen as a charmed circle--an exclusive, hard-to-break-into group--and images like this furthers that belief. It says: "If you can't sit down and jot out a workflow and list of key themes in beautiful penmenship and accent shadows, you are not cut out for UX."
 

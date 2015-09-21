@@ -6,12 +6,12 @@ permalink: design-vs-ux
 published: true
 author: Nathan Ziarek
 categories: [ux,design]
-image: /objects/design-vs-ux.jpg
+image: /media/design-vs-ux.jpg
 ---
 
 Every few months this image (or one *just* like it) makes the rounds with the caption "Design vs. UX".
 
-<img src="/objects/design-vs-ux.jpg" alt="Design vs. UX" width="1024" height="430" />
+<img src="/media/design-vs-ux.jpg" alt="Design vs. UX" width="1024" height="430" />
 
 It's clever, but wrong and  ... dangerously misleading.
 

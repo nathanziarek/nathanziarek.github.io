@@ -6,8 +6,8 @@ permalink: ugh-interface-of-the-week
 published: true
 author: Nathan Ziarek
 categories: [ux]
-image: /objects/pintrest.m4v.png
-video: /objects/pintrest.m4v
+image: /media/pintrest.m4v.png
+video: /media/pintrest.m4v
 ---
 
 Oh, to be a fly on the wall when this interaction was approved! 
@@ -18,6 +18,6 @@ Oh, to be a fly on the wall when this interaction was approved!
 >
 >--Hypothetical Pintrest Marketing <strike>Demon</strike> Employee
 
-<video poster="/objects/pintrest.m4v.png" src="/objects/pintrest.m4v" width="1920" height="1456" type="video/mp4" controls></video>
+<video poster="/media/pintrest.m4v.png" src="/media/pintrest.m4v" width="1920" height="1456" type="video/mp4" controls></video>
 
 I'm sure it drives a fantastic conversion rate. It doesn't matter that it likely annoys new customers and starts their journey with Pintrest on a sour note.

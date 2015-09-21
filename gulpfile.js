@@ -1,6 +1,5 @@
 var gulp = require('gulp')
     less = require('gulp-less'),
-    gulpFilter = require('gulp-filter'),
     package = require('./package.json'),
     semver = require('semver'),
     del = require('del'),
@@ -11,13 +10,13 @@ var gulp = require('gulp')
     csso = require('gulp-csso'),
     bowerApp = require("bower"),
     sourcemaps = require('gulp-sourcemaps'),
-    imagemin = require('gulp-imagemin'),
     flatten = require('gulp-flatten'),
     bump = require('gulp-bump'),
-    inline_base64 = require('gulp-inline-base64');
+    inline_base64 = require('gulp-inline-base64'),
+    tinypng = require("gulp-tinypng-compress");
 
 /* Default Tasks */
-    gulp.task('default', ['build-less', 'concat-scripts', 'copy-icons'],  function() {});
+    gulp.task('default', ['build-less', 'concat-scripts', 'copy-icons1', 'copy-icons2', 'copy-images', 'copy-video'],  function() {});
 
 /* Builders */
     gulp.task('build-less', ['clean-build', 'update-packages'], function(cb) {
@@ -31,6 +30,7 @@ var gulp = require('gulp')
             }))
             .pipe( autoprefixer() )
             .pipe( sourcemaps.write() )
+            .pipe(csso())
             .pipe( gulp.dest("interface/") )
             .on("end", cb)
     });
@@ -42,43 +42,47 @@ var gulp = require('gulp')
             .pipe( sourcemaps.init() )
             .pipe( concat('main.js', {newLine: ';'} ) )
             .pipe( sourcemaps.write() )
+            .pipe(uglify())
             .pipe( gulp.dest('interface/') )
             .on( "end", cb );
     });
-    gulp.task('copy-icons', ['clean-build'], function(cb){
-      gulp.src(['source/icons/*.png', 'source/icons/*.ico'])
+    gulp.task('copy-icons1', ['clean-build'], function(cb){
+      gulp.src(['source/icons/*.png'])
+        .pipe(flatten())
+          .pipe(tinypng({
+            key: 'CK5W98PwRUiKlxH8klZcmQ7pCQhj8uao',
+            checkSigs: true,
+            sigFile: '_objects/.tinypng-sigs',
+            log: true
+        }))
+        .pipe(gulp.dest('interface/'))
+        .on( "end", cb );
+    });
+    gulp.task('copy-icons2', ['clean-build'], function(cb){
+      gulp.src(['source/icons/*.ico'])
         .pipe(flatten())
         .pipe(gulp.dest('interface/'))
+        .on( "end", cb );
+    });
+    gulp.task('copy-images', ['clean-build'], function(cb){
+      gulp.src(['_objects/*.png', '_objects/*.jpg'])
+        .pipe(tinypng({
+            checkSigs: true,
+            sigFile: '_objects/.tinypng-sigs',
+            log: true
+        }))
+        .pipe(gulp.dest('media/'))
+        .on( "end", cb );
+    });
+    gulp.task('copy-video', ['clean-build'], function(cb){
+      gulp.src(['_objects/*.m4v'])
+        .pipe(gulp.dest('media/'))
         .on( "end", cb );
     });
 
 /* Cleaners */
     gulp.task('clean-build', function (cb) {
-        del(['interface/**'], function () { cb(); });
-    });
-
-
-/* Filters */
-    var filterCSS = gulpFilter(["**/*.css"]);
-    var filterJS = gulpFilter(["**/*.js"]);
-    var filterImg = gulpFilter(["**/*.png"]);
-
-    gulp.task('crush', ['default'],  function() {
-        gulp.src('interface/*.*')
-
-            .pipe(filterCSS)
-            .pipe(csso())
-            .pipe(filterCSS.restore())
-
-            .pipe(filterJS)
-            .pipe(uglify())
-            .pipe(filterJS.restore())
-
-            .pipe(filterImg)
-            .pipe(imagemin())
-            .pipe(filterImg.restore())
-
-            .pipe(gulp.dest('interface/'))
+        del(['interface/**', 'media/**'], function () { cb(); });
     });
 
 /* Utilities */

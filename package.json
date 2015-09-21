@@ -20,5 +20,8 @@
     "gulp-sourcemaps": "^1.1.1",
     "gulp-uglify": "^0.3.0",
     "semver": "^4.2.0"
+  },
+  "dependencies": {
+    "gulp-tinypng-compress": "^1.1.8"
   }
 }

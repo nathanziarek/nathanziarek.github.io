@@ -6,7 +6,7 @@ permalink: ux-venn-diagram
 published: true
 author: Nathan Ziarek
 categories: [ux]
-image: /objects/user-experience-considerations.png
+image: /media/user-experience-considerations.png
 ---
 
 I remember a years-old quote from [Whitney Hess][whitney-hess] that shed some new light on my role as a User Experience Designer.
@@ -27,7 +27,7 @@ This framework shows the best ideas come at a four-way intersection of *user wan
 
 Looking back at my my lightly-vetted model, the sustainability piece was a clear miss. A few tweaks later, a slight twist to the diagram (balance or not, the user should be on top!) and clear thanks to Eileen, we have my new model for thinking about user experience.
 
-<img src="/objects/user-experience-considerations.png" alt="User Experience Venn Diagram" />
+<img src="/media/user-experience-considerations.png" alt="User Experience Venn Diagram" />
 
 I'd love to hear your thoughts!
 
