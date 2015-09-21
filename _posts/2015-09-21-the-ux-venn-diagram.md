@@ -6,7 +6,7 @@ permalink: ux-venn-diagram
 published: true
 author: Nathan Ziarek
 categories: [ux]
-image: /objects/tv-watching.png
+image: /objects/user-experience-considerations.png
 ---
 
 I remember a years-old quote from [Whitney Hess][whitney-hess] that shed some new light on my role as a User Experience Designer.
