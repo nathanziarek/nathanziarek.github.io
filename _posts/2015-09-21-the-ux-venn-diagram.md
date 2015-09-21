@@ -1,6 +1,6 @@
 ---
 layout: article
-title: The UX Venn Diagram: Balancing User, Business, and Capability
+title: The UX Venn Diagram - Balancing User, Business, and Capability
 excerpt: User experience is a balancing act, combining what the user desires, what the business needs, what the technology can support and what the organization can sustain.
 permalink: ux-venn-diagram
 published: true
