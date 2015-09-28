@@ -114,6 +114,41 @@ body {
             border-radius: 2px;
             overflow: hidden;
         }
+        table {
+            width: 100%;
+            border-spacing: 0;
+            border-collapse: collapse;
+            box-shadow: 0 0 20px @color-accent;
+            border-radius: 2px;
+            thead {
+                th {
+                    background: @color-accent;
+                    padding: 10px;
+                    + th {
+                        border-left: 1px solid darken(@color-accent, 5%);
+                    }
+                }
+                font-weight: normal;
+            }
+            tbody {
+                tr{
+                    td, th {
+                        padding: 10px;
+                        background: #fff;
+                        + td {
+                            border-left: 1px solid darken(@color-accent, 1%);
+                        }
+                    }
+                    + tr {
+                        td { border-top: 1px solid darken(@color-accent, 1%); }
+                    }
+                }
+            }
+            thead {
+                font-weight: bold;
+                th { background: @color-accent }
+            }
+        }
 	}
 	section {
 		width: @content-width;
