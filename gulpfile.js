@@ -19,71 +19,74 @@ var gulp = require('gulp')
     gulp.task('default', ['build-less', 'concat-scripts', 'copy-icons1', 'copy-icons2', 'copy-images', 'copy-video'],  function() {});
 
 /* Builders */
-    gulp.task('build-less', ['clean-build', 'update-packages'], function(cb) {
-        gulp
-            .src("source/styles/*.less")
-            .pipe( sourcemaps.init() )
-            .pipe( less() )
-            .pipe(inline_base64({
-                baseDir: "source/",
-                debug: true
-            }))
-            .pipe( autoprefixer() )
-            .pipe( sourcemaps.write() )
-            .pipe(csso())
-            .pipe( gulp.dest("interface/") )
-            .on("end", cb)
+    gulp.task('build-less', function(cb) {
+        del(['interface/**.css'], function() {
+            gulp
+                .src("source/styles/*.less")
+                .pipe( sourcemaps.init() )
+                .pipe( less() )
+                .pipe(inline_base64({
+                    baseDir: "source/",
+                    debug: true
+                }))
+                .pipe( autoprefixer() )
+                .pipe( sourcemaps.write() )
+                .pipe( csso() )
+                .pipe( gulp.dest("interface/") )
+                .on("end", cb);
+        });
     });
-    gulp.task('concat-scripts', ['clean-build', 'update-packages'], function(cb){
-        var librarySources = require('bower-files')();
-            librarySources.js.unshift('source/scripts/init.js');
-            librarySources.js.push('source/scripts/app.js');
-        gulp.src( librarySources.js )
-            .pipe( sourcemaps.init() )
-            .pipe( concat('main.js', {newLine: ';'} ) )
-            .pipe( sourcemaps.write() )
-            .pipe(uglify())
-            .pipe( gulp.dest('interface/') )
+    gulp.task('concat-scripts', function(cb){
+        del(['interface/**.js'], function() {
+            var librarySources = require('bower-files')();
+                librarySources.js.unshift('source/scripts/init.js');
+                librarySources.js.push('source/scripts/app.js');
+            gulp.src( librarySources.js )
+                .pipe( sourcemaps.init() )
+                .pipe( concat('main.js', {newLine: ';'} ) )
+                .pipe( sourcemaps.write() )
+                .pipe( uglify() )
+                .pipe( gulp.dest('interface/') )
+                .on( "end", cb );
+        });
+    });
+    gulp.task('copy-icons1', function(cb){
+        gulp.src(['source/icons/*.png'])
+            .pipe(flatten())
+              .pipe(tinypng({
+                key: 'CK5W98PwRUiKlxH8klZcmQ7pCQhj8uao',
+                checkSigs: true,
+                sigFile: '_objects/.tinypng-sigs',
+                log: true
+            }))
+            .pipe(gulp.dest('interface/'))
             .on( "end", cb );
     });
-    gulp.task('copy-icons1', ['clean-build'], function(cb){
-      gulp.src(['source/icons/*.png'])
+    gulp.task('copy-icons2', function(cb){
+      del(['interface/*.ico'], function() {
+        gulp.src(['source/icons/*.ico'])
         .pipe(flatten())
-          .pipe(tinypng({
+        .pipe(gulp.dest('interface/'))
+        .on( "end", cb );
+      });
+    });
+    gulp.task('copy-images', function(cb){
+      gulp.src(['_objects/*.png', '_objects/*.jpg'])
+        .pipe(tinypng({
             key: 'CK5W98PwRUiKlxH8klZcmQ7pCQhj8uao',
             checkSigs: true,
             sigFile: '_objects/.tinypng-sigs',
             log: true
         }))
-        .pipe(gulp.dest('interface/'))
-        .on( "end", cb );
-    });
-    gulp.task('copy-icons2', ['clean-build'], function(cb){
-      gulp.src(['source/icons/*.ico'])
-        .pipe(flatten())
-        .pipe(gulp.dest('interface/'))
-        .on( "end", cb );
-    });
-    gulp.task('copy-images', ['clean-build'], function(cb){
-      gulp.src(['_objects/*.png', '_objects/*.jpg'])
-        .pipe(tinypng({
-            checkSigs: true,
-            sigFile: '_objects/.tinypng-sigs',
-            log: true
-        }))
         .pipe(gulp.dest('media/'))
         .on( "end", cb );
     });
-    gulp.task('copy-video', ['clean-build'], function(cb){
+    gulp.task('copy-video', function(cb){
       gulp.src(['_objects/*.m4v'])
         .pipe(gulp.dest('media/'))
         .on( "end", cb );
     });
 
-/* Cleaners */
-    gulp.task('clean-build', function (cb) {
-        del(['interface/**', 'media/**'], function () { cb(); });
-    });
 
 /* Utilities */
     gulp.task('update-packages', ['clean-packages'], function (cb) {
