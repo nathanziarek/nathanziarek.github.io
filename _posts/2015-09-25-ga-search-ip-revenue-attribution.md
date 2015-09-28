@@ -6,7 +6,7 @@ permalink: google-analytics-revenue-attribution-search-internal-promotion
 published: true
 author: Nathan Ziarek
 categories: [googleanalytics]
-image: /media/internal-promotions.png
+image: /media/internal-promotion.png
 ---
 
 Google Analytics is often a complete black box. Information comes in and reports pop out, but *what* those numbers mean is  hidden.
@@ -87,7 +87,7 @@ This model isn't perfect, but it's much closer to the intent of the customer. Le
 4. Jean Promotion Clicked
 5. Jeans Added to Cart ($150)
 
-Again using the last-interaction model, we'd see *Boot* get credit for $100 of the sale and *Jeans* with credit for $150. The glove promotion, while clicked, doesn't get any credit for the transaction.
+Again, using the last-interaction model, we'd see *Boot* get credit for $100 of the sale and *Jeans* with credit for $150. The glove promotion, while clicked, doesn't get any credit for the transaction.
 
 ## Summary
 
