@@ -3,7 +3,7 @@ layout: meta
 style: article
 ---
 
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<article itemscope itemtype="http://schema.org/Article">
 
 	{% if page.reference %}
 	<h1><a itemprop="name" href="{{ page.reference }}">{{page.title | xml_escape}}</a></h1>
@@ -12,44 +12,14 @@ style: article
 	{% endif %}
 	
 	{{content}}
-	
-	<!--<p>by <span itemprop="author">{{page.author}}</span>-->
-	
-	{% if page.references %}
-		<div class="references">Reference 
-			{% for ref in page.references %}
-				{% assign words = ref | split: '|' %}
-				<a href="http://{{ words[0] }}" target="_blank">{{ words[1] }}</a> 
-			{% endfor %}
-            {% for via in page.cc %}
-				<a href="http://twitter.com/{{ via }}" target="_blank">@{{ via }}</a>
-			{% endfor %}
 
-		</div>
-	{% endif %}
+
+    {% if page.categories != undefined %}
+        <p class="keywords">Keywords:
+            {% for category in page.categories %}
+                <span itemprop="about">{{ category }}</span>
+            {% endfor %}
+        </p>
+    {% endif %}
 
 </article>
-
-{% for post in site.posts %}
-    {% if post.url == page.url %}
-        {% assign post_index0 = forloop.index0 %}
-        {% assign post_index1 = forloop.index %}
-    {% endif %}
-{% endfor %}
-{% for post in site.posts %}
-    {% if post_index0 == forloop.index %}
-        {% assign next_post = post.url %}
-        {% assign next_post_title = post.title %}
-    {% endif %}
-    {% if post_index1 == forloop.index0 %}
-        {% assign prev_post = post.url %}
-        {% assign prev_post_title = post.title %}
-    {% endif %}
-{% endfor %}
-
-{% if next_post %}
-    <a href="{{ next_post }}" class="site-nav site-nav-next"><span>{{ next_post_title }}</span></a>
-{% endif %}
-{% if prev_post %}
-    <a href="{{ prev_post }}" class="site-nav site-nav-prev"><span>{{ prev_post_title }}</span></a>
-{% endif %}
