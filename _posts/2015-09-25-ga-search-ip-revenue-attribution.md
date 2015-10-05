@@ -5,7 +5,7 @@ excerpt: Understanding the revenue numbers from the Internal Promotion and Searc
 permalink: google-analytics-revenue-attribution-search-internal-promotion
 published: true
 author: Nathan Ziarek
-categories: [googleanalytics]
+categories: [GoogleAnalytics]
 image: /media/internal-promotion.png
 ---
 
