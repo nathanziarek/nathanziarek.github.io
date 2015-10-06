@@ -22,7 +22,7 @@ var gulp = require('gulp')
     gulp.task('build-less', function(cb) {
         del(['interface/**.css'], function() {
             gulp
-                .src("source/styles/*.less")
+                .src("source/styles/main.less")
                 .pipe( sourcemaps.init() )
                 .pipe( less() )
                 .pipe(inline_base64({
