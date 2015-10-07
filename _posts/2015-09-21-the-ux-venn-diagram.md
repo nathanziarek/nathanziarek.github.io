@@ -1,12 +1,12 @@
 ---
 layout: article
-title: The UX Venn Diagram - Balancing User, Business, and Capability
+title: UX Intersections
 excerpt: User experience is a balancing act, combining what the user desires, what the business needs, what the technology can support and what the organization can sustain.
 permalink: ux-venn-diagram
 published: true
 author: Nathan Ziarek
 categories: [ux]
-image: /media/user-experience-considerations.png
+image: /media/user-experience-intersections.png
 ---
 
 I remember a years-old quote from [Whitney Hess][whitney-hess] that shed some new light on my role as a User Experience Designer.
@@ -27,7 +27,7 @@ This framework shows the best ideas come at a four-way intersection of *user wan
 
 Looking back at my my lightly-vetted model, the sustainability piece was a clear miss. A few tweaks later, a slight twist to the diagram (balance or not, the user should be on top!) and clear thanks to Eileen, we have my new model for thinking about user experience.
 
-<img src="/media/user-experience-considerations.png" alt="User Experience Venn Diagram" />
+<img src="../media/user-experience-intersections.svg" alt="User Experience Intersections Venn Diagram" width="1920" height="1080"/>
 
 I'd love to hear your thoughts!
 
