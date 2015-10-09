@@ -13,10 +13,12 @@ var gulp = require('gulp')
     flatten = require('gulp-flatten'),
     bump = require('gulp-bump'),
     inline_base64 = require('gulp-inline-base64'),
-    tinypng = require("gulp-tinypng-compress");
+    tinypng = require("gulp-tinypng-compress"),
+    svgmin = require("gulp-svgmin"),
+        svg2png = require('gulp-svg2png') ;
 
 /* Default Tasks */
-    gulp.task('default', ['build-less', 'concat-scripts', 'copy-icons1', 'copy-icons2', 'copy-images', 'copy-video'],  function() {});
+    gulp.task('default', ['build-less', 'concat-scripts', 'copy-icons1', 'copy-icons2', 'copy-bitmaps', 'copy-svg', 'copy-video'],  function() {});
 
 /* Builders */
     gulp.task('build-less', function(cb) {
@@ -70,7 +72,7 @@ var gulp = require('gulp')
         .on( "end", cb );
       });
     });
-    gulp.task('copy-images', function(cb){
+    gulp.task('copy-bitmaps', function(cb){
       gulp.src(['_objects/*.png', '_objects/*.jpg'])
         .pipe(tinypng({
             key: 'CK5W98PwRUiKlxH8klZcmQ7pCQhj8uao',
@@ -81,6 +83,21 @@ var gulp = require('gulp')
         .pipe(gulp.dest('media/'))
         .on( "end", cb );
     });
+    gulp.task('copy-svg', function(cb){
+      gulp.src(['_objects/*.svg'])
+        .pipe(svgmin())
+        .pipe(gulp.dest('media/'))
+        .pipe(svg2png())
+        .pipe(tinypng({
+            key: 'CK5W98PwRUiKlxH8klZcmQ7pCQhj8uao',
+            checkSigs: true,
+            sigFile: '_objects/.tinypng-sigs',
+            log: true
+        }))
+        .pipe(gulp.dest('media/'))
+        .on( "end", cb );
+    });
+
     gulp.task('copy-video', function(cb){
       gulp.src(['_objects/*.m4v'])
         .pipe(gulp.dest('media/'))
