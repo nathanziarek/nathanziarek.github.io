@@ -7,7 +7,7 @@ published: true
 author: Nathan Ziarek
 categories: [ux,appletv]
 video: /media/global-queue.m4v
-image: /media/global-queue.m4v.png
+image: /media/better-tv-experience.jpg
 ---
 
 A few years back, my wife and I cut the cord and cancelled DirecTV. It wasn't due to any anti-TV zealotry--I still probably watch more TV than most people would consider healthy--but we wanted to save a few bucks and get off the couch a bit more. Honestly, with the huge array of options available--a Vizio smart TV, couple of AppleTVs, a Chromecast, Netflix, iTunes--I figured we really weren't giving up much.
