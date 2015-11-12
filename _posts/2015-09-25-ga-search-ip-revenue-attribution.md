@@ -42,7 +42,7 @@ Anne visits your site and sees a **gloves** promotion on the homepage. She ignor
 | Boots         | 1              | 1          | 100%   | 0              | 0.00      |
 | Jeans         | 1              | 1          | 100%   | 1              | 50.00     |
 
-Promotions for *gloves*, *boots*, and *jeans* were seen, but only *jeans* gets any credit for the trasnaction.
+Promotions for *gloves*, *boots*, and *jeans* were seen, but only *jeans* gets any credit for the transaction.
 
 This particular scenario was interesting. We used the [add-to-cart action of the Enhanced Commerce tool][1] directly after the click to the *boots* promotion. It was assumed that this would give Google Analytics an indication that the revenue from that purchase should be attributed to the *boots* promotion. Yet, Google Analytics funneled that spend to the *jeans* promotion.
 
@@ -50,7 +50,7 @@ This particular scenario was interesting. We used the [add-to-cart action of the
 
 ### Attribution Models
 
-Google Analytics already has a concept of 'attribution models' for use in cmapaign tracking and referral traffic. This tool can perform adjustments to how revenue is allocated to transactions that occured after several other interactions. A customer that received an email, then clicked a banner ad before ultimately purchasing could have their transaction apply only to the last interaction (the banner click), spread 50/50, or any other number of possibilities.
+Google Analytics already has a concept of 'attribution models' for use in campaign tracking and referral traffic. This tool can perform adjustments to how revenue is allocated to transactions that occurred after several other interactions. A customer that received an email, then clicked a banner ad before ultimately purchasing could have their transaction apply only to the last interaction (the banner click), spread 50/50, or any other number of possibilities.
 
 Google could potentially enable a similar tool here. In our second scenario above, I'd much prefer that the $50 transaction was spread evenly over all three promotions. While this gives two promotions 'credit' for a conversion they didn't take part in, it  at least attributes the *boots* promotion with something.
 
@@ -93,6 +93,6 @@ Again, using the last-interaction model, we'd see *Boot* get credit for $100 of 
 
 These models are just frameworks to crunch large amounts of data into actionable insights. Without sitting with the customer, we're never going to know if a promotion from the homepage made them think of something else, eventually leading to a purchase of something totally unrelated.
 
-However, being smarter with the data at our disposal gets us closer to understanding the user flow at a high level and is definitely worth the time to instrumne the data collection.
+However, being smarter with the data at our disposal gets us closer to understanding the user flow at a high level and is definitely worth the time to instrument the data collection.
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/enhanced-ecommerce#add-remove-cart
