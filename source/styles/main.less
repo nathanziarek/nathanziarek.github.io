@@ -122,7 +122,7 @@ article {
                     border-left: 1px solid darken(@color-accent, 5%);
                 }
             }
-            font-weight: normal;
+            font-weight: bold;
         }
         tbody {
             tr {
@@ -133,18 +133,19 @@ article {
                     + td {
                         border-left: 1px solid darken(@color-accent, 1%);
                     }
+                    img {
+                        width: 30px;
+                        margin: 0;
+                        vertical-align:middle;
+                        margin-right:10px;
+                        box-shadow:none;
+                    }
                 }
                 + tr {
                     td {
                         border-top: 1px solid darken(@color-accent, 1%);
                     }
                 }
-            }
-        }
-        thead {
-            font-weight: bold;
-            th {
-                background: @color-accent
             }
         }
     }
