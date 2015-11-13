@@ -19,7 +19,9 @@ Sports apps have the most obvious implementations. Games could be shown with the
 
 <video src="/media/sports-interaction.m4v" autoplay loop width="1280" height="720" type="video/mp4" controls></video>
 
+Apple is all-in on their model of apps as the future of TV. It's a fairly obvious way forward and one clearly mapped by the rise of smartphones and app stores. Apps can provide the same content consumption seen today, while having enormous capacity to build engaging interactions broadcast TV could only dream of. (Sadly, this probably also means a level of ad annoyance we've never dreamed of, either.)
 
+leads to clutter and difficulty in discovery -- today we have tv guide, tmorrow sisir http://recode.net/2015/11/02/if-the-future-of-tv-is-apps-whos-going-to-be-the-tv-guide-of-the-future-ask-siri/
 
 
 [1]: /building-better-tv-interfaces/
