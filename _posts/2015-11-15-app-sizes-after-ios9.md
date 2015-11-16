@@ -37,9 +37,9 @@ Bottom Line
 
 From these 63 apps, I saw a net *decrease of 8.5%* for a savings of *nearly 650MB*.
 
-Apple's Pages was the big winner, shedding 66MB, followed by Numbers (60MB) and Facebook (56MB).
+Apple's [Pages] was the big winner, shedding 66MB, followed by [Numbers] (60MB) and [Facebook] (56MB).
 
-In terms of percentage lost, Overcast managed to lose the most of what little size it started with, shedding 42% of it's original weight. Close behind was Facebook, losing 40%, and Scopa Pro down 39%.
+In terms of percentage lost, [Overcast] managed to lose the most of what little size it started with, shedding 42% of it's original weight. Close behind was [Facebook], losing 40%, and [Scopa Pro] down 39%.
 
 
 Takeaways
@@ -47,13 +47,13 @@ Takeaways
 
 1. Checking for app sizes is a pain.
 
-2. Some full-featured apps were surpirsingly small to begin with. Overcast--a favorite in the world of podcasting--at its heaviest--was only 7.6MB. It shed 40% of it's weight, coming in at only 4.4MB. I stopped using Overcast during this test, but kept it around because it is a testament to craftsmanship.
+2. Some full-featured apps were surpirsingly small to begin with. [Overcast]--a favorite in the world of podcasting--at its heaviest was only 7.6MB. It shed 40% of it's weight, coming in at only 4.4MB. I stopped using [Overcast] during this test, but kept it around because it is a testament to craftsmanship.
 
 3. I didn't spread the genres around as well as I thought I did. It didn't seem to matter much--there was little correlation between the category and the size reduction.
 
-4. I checked these apps a few times over the past month and half and the app sizes were always fluctuating a bit. A few MB one way or the other doesn't mean much.
+4. I checked a few times over the past month and half and the app sizes were always fluctuating a bit. A few MB one way or the other doesn't mean much.
 
-5. I spot-checked these sizes against an iPad Air 2. They were relatively close to what is reported below. I imagine other devices will see greater savings since they'll be able to shed the bitmaps accosiated with this large screens.
+5. I spot-checked these sizes against an iPad Air 2. They were relatively close to what is reported below. I imagine other devices will see greater savings since they'll be able to shed the bitmaps associated with these large screens.
 
 
 The Breakdown
