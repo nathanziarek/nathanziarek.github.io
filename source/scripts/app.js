@@ -15,4 +15,6 @@ $( function() {
         fadeIn();
     }
 
+    $('table').tablesorter();
+
 });
