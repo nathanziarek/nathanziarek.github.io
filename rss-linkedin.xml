@@ -15,7 +15,7 @@
 	    {% for post in site.posts limit:5 %}
 	    <item>
 	        <title>{{ post.title | xml_escape }}</title>
-	        <description><![CDATA[ {{ post.title }} {{ post.excerpt }}
+	        <description><![CDATA[ {{ post.title }} - {{ post.excerpt }}
                 {% if page.image == undefined %}
                     <img src="{{ site.url }}/interface/icon-512.png">
                 {% else %}
