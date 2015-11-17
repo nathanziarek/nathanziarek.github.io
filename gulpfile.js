@@ -15,7 +15,8 @@ var gulp = require('gulp')
     inline_base64 = require('gulp-inline-base64'),
     tinypng = require("gulp-tinypng-compress"),
     svgmin = require("gulp-svgmin"),
-        svg2png = require('gulp-svg2png') ;
+    svg2png = require('gulp-svg2png')
+    md5 = require("gulp-md5-plus");
 
 /* Default Tasks */
     gulp.task('default', ['build-less', 'concat-scripts', 'copy-icons1', 'copy-icons2', 'copy-bitmaps', 'copy-svg', 'copy-video'],  function() {});
@@ -34,6 +35,7 @@ var gulp = require('gulp')
                 .pipe( autoprefixer() )
                 .pipe( sourcemaps.write() )
                 .pipe( csso() )
+                .pipe(md5(10, '_layouts/meta.html'))
                 .pipe( gulp.dest("interface/") )
                 .on("end", cb);
         });
@@ -48,6 +50,7 @@ var gulp = require('gulp')
                 .pipe( concat('main.js', {newLine: ';'} ) )
                 .pipe( sourcemaps.write() )
                 .pipe( uglify() )
+                .pipe(md5(10, '_layouts/meta.html'))
                 .pipe( gulp.dest('interface/') )
                 .on( "end", cb );
         });

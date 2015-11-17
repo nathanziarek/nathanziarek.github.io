@@ -17,6 +17,8 @@
     "gulp-imagemin": "^2.1.0",
     "gulp-inline-base64": "^0.1.4",
     "gulp-less": "^1.2.3",
+    "gulp-md5-assets": "^0.1.9",
+    "gulp-md5-plus": "^0.1.8",
     "gulp-sourcemaps": "^1.1.1",
     "gulp-uglify": "^0.3.0",
     "semver": "^4.2.0"
