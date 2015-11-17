@@ -1,7 +1,5 @@
 var gulp = require('gulp')
     less = require('gulp-less'),
-    package = require('./package.json'),
-    semver = require('semver'),
     del = require('del'),
     uglify = require('gulp-uglify'),
     less = require('gulp-less'),
@@ -11,7 +9,6 @@ var gulp = require('gulp')
     bowerApp = require("bower"),
     sourcemaps = require('gulp-sourcemaps'),
     flatten = require('gulp-flatten'),
-    bump = require('gulp-bump'),
     inline_base64 = require('gulp-inline-base64'),
     tinypng = require("gulp-tinypng-compress"),
     svgmin = require("gulp-svgmin"),
