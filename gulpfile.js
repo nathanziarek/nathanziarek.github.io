@@ -125,13 +125,3 @@ var gulp = require('gulp')
             cb();
         });
     });
-
-
-/* Changelog */
-    var newVersion = "";
-    gulp.task('increment-version', function(cb) {
-        newVersion = semver.inc(package.version, "minor");
-        gulp.src(['package.json', 'bower.json'])
-            .pipe(bump({ version: newVersion }))
-            .pipe(gulp.dest('./'))
-    });
