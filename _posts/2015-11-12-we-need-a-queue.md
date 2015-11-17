@@ -1,6 +1,6 @@
 ---
 layout: article
-title: The Future of TV is App Clutter
+title: blah blah blah
 excerpt: 
 permalink: thoughts-on-appletv
 published: false
