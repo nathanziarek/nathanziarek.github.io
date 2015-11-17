@@ -1,0 +1,25 @@
+---
+layout: meta
+style: article
+---
+
+<article itemscope itemtype="http://schema.org/Article">
+
+	{% if page.reference %}
+	<h1><a itemprop="name" href="{{ page.reference }}">{{page.title | xml_escape}}</a></h1>
+	{% else %}
+	<h1><a itemprop="name" href="/{{ page.permalink }}">{{page.title | xml_escape}}</a></h1>
+	{% endif %}
+	
+	{{content}}
+
+
+    {% if page.categories != undefined %}
+        <p class="keywords">Keywords:
+            {% for category in page.categories %}
+                <span itemprop="about">{{ category }}</span>
+            {% endfor %}
+        </p>
+    {% endif %}
+
+</article>
