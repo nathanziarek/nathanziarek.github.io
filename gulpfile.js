@@ -48,6 +48,7 @@ var gulp = require('gulp')
             var librarySources = require('bower-files')();
                 librarySources.js.unshift('source/scripts/init.js');
                 librarySources.js.push('source/scripts/app.js');
+                librarySources.js.push('responsive-tables.js');
             gulp.src( librarySources.js )
                 .pipe( sourcemaps.init() )
                 .pipe( concat('main.js', {newLine: ';'} ) )

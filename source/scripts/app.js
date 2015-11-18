@@ -16,5 +16,7 @@ $( function() {
     }
 
     $('table').tablesorter();
+    
+    $("table").addClass("responsive");
 
 });
