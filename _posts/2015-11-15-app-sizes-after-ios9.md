@@ -47,7 +47,7 @@ Takeaways
 
 1. Checking for app sizes is a pain.
 
-2. Some full-featured apps were surpirsingly small to begin with. [Overcast]--a favorite in the world of podcasting--at its heaviest was only 7.6MB. It shed 40% of it's weight, coming in at only 4.4MB. I stopped using [Overcast] during this test, but kept it around because it is a testament to craftsmanship.
+2. Some full-featured apps were surprisingly small to begin with. [Overcast]--a favorite in the world of podcasting--at its heaviest was only 7.6MB. It shed 40% of it's weight, coming in at only 4.4MB. I stopped using [Overcast] during this test, but kept it around because it is a testament to craftsmanship.
 
 3. I didn't spread the genres around as well as I thought I did. It didn't seem to matter much--there was little correlation between the category and the size reduction.
 
