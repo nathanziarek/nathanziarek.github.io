@@ -43,14 +43,18 @@
         {% if page.image == undefined %}
             <meta name="twitter:image" content="{{ site.url }}/interface/icon-512.png">
         {% else %}        
-            {% if post.image contains 'http' %}
+            {% if page.image contains 'http' %}
                 <meta name="twitter:image" content="{{ page.image }}">
             {% else %}
                 <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
             {% endif %}
         {% endif %}
         {% if page.video != undefined %}
-            <meta name="twitter:player:stream" content="{{ site.url }}{{ page.video }}">
+            {% if page.video contains 'http' %}
+                <meta name="twitter:player:stream" content="{{ page.video }}">
+            {% else %}
+                <meta name="twitter:player:stream" content="{{ site.url }}{{ page.video }}">
+            {% endif %}
         {% endif %}
         <meta property="twitter:account_id" content="4503599628005006" />
         <meta property="og:title" content="{{ page.title }}" />
@@ -59,11 +63,12 @@
         {% if page.image == undefined %}
             <meta property="og:image" content="{{ site.url }}/interface/icon-512.png">
         {% else %}
-            {% if post.image contains 'http' %}
+            {% if page.image contains 'http' %}
                 <meta property="og:image" content="{{ page.image }}">
             {% else %}
                 <meta property="og:image" content="{{ site.url }}{{ page.image }}">
-            {% endif %}        {% endif %}
+            {% endif %}
+        {% endif %}
         <meta property="og:description" content="{{ page.snippet | replace: '"', '\"' }}">
         <meta property="article:author" content="http://www.linkedin.com/in/nathanziarek" />
         <meta property="article:author" content="https://www.facebook.com/nathanziarek" />
