@@ -1,0 +1,35 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+	    <title>{{ site.name | xml_escape }} (LinkedIn)</title>
+		<image>
+			<url>http://latetotheparty.co/interface/icon-512.png</url>
+			<title>{{ site.name | xml_escape }}</title>
+			<link>{{ site.url }}</link>
+		</image>
+	    <description>Snippets of Late to the Party for LinkedIn.</description>
+	    <link>{{ site.url }}</link>
+	    <atom:link href="{{ site.url }}/rss-linkedin.xml" rel="self" type="application/rss+xml" />
+	    {% for post in site.posts limit:5 %}
+	    <item>
+	        <title>{{ post.title | xml_escape }}</title>
+	        <description><![CDATA[ {{ post.title }} - {{ post.excerpt }}
+                {% if post.image == undefined %}
+                    <img src="{{ site.url }}/interface/icon-512.png">
+                {% else %}
+                    <img src="{{ site.url }}{{ post.image }}">
+                {% endif %}
+            ]]></description>
+	        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+	        {% if post.reference %}
+	        <link>{{ post.reference }}</link>
+	        {% else %}
+	        <link>{{ site.url }}{{ post.url }}/</link>
+	        {% endif %}
+	        <guid isPermaLink="true">{{ site.url }}{{ post.url }}/</guid>
+	    </item>
+	    {% endfor %}
+	</channel>
+</rss>

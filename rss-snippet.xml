@@ -15,7 +15,7 @@
 	    {% for post in site.posts limit:5 %}
 	    <item>
 	        <title>{{ post.title | xml_escape }}</title>
-	        <description>{{ post.title | xml_escape }} {{ site.url }}{{ post.url }}/ {% if post.categories != undefined %}{% for category in post.categories %}#{{ category }} {% endfor %}{% endif %}</description>
+	        <description>{{ post.title | xml_escape }} {{ site.url }}{{ post.url }}/ {{ post.excerpt | xml_escape }} {% if post.categories != undefined %}{% for category in post.categories %}#{{ category }} {% endfor %}{% endif %}</description>
 	        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 	        {% if post.reference %}
 	        <link>{{ post.reference }}</link>

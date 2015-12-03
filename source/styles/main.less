@@ -122,16 +122,36 @@ article {
                     border-left: 1px solid darken(@color-accent, 5%);
                 }
             }
-            font-weight: normal;
+            font-weight: bold;
         }
         tbody {
             tr {
+                &:hover {
+                    td {
+                        background: #faf8f8;
+                    }
+                }
                 td,
                 th {
                     padding: 10px;
                     background: #fff;
+                    transition: background 200ms linear;
                     + td {
                         border-left: 1px solid darken(@color-accent, 1%);
+                    }
+                    img {
+                        width: 15px;
+                        margin: 0;
+                        vertical-align:middle;
+                        margin-right:6px;
+                        box-shadow:none;
+                    }
+                    a {
+                        color: mix(@color, #333);
+                        text-decoration: none;
+                        &:hover {
+                            color: @color;
+                        }
                     }
                 }
                 + tr {
@@ -139,12 +159,6 @@ article {
                         border-top: 1px solid darken(@color-accent, 1%);
                     }
                 }
-            }
-        }
-        thead {
-            font-weight: bold;
-            th {
-                background: @color-accent
             }
         }
     }
@@ -288,12 +302,12 @@ section {
                 margin-left: 20px;
                 margin-right: 20px;
             }
-            h1:extend(article p) {
+            h1:extend(body article p) {
                 font-size: 30px;
             }
-            h2:extend(article p) {}
-            h3:extend(article p) {}
-            ul:extend(article p) {}
+            h2:extend(body article p) {}
+            h3:extend(body article p) {}
+            ul:extend(body article p) {}
             video,
             img {
                 width: 100%;
@@ -316,3 +330,5 @@ section {
         }
     }
 }
+
+@import "responsive-tables";
