@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Small Interactions make Big UX
-excerpt: Simple customer service can make a huge difference in how a user perceives their experience.
+snippet: Simple customer service can make a huge difference in how a user perceives their experience.
 permalink: customer-service-as-ux
 published: true
 author: Nathan Ziarek

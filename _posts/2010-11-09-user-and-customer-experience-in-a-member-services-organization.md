@@ -1,7 +1,7 @@
 ---
 layout: article
 title: User and Customer Experience in a Member Services Organization
-excerpt: 
+snippet: 
 permalink: user-and-customer-experience-in-a-member-services-organization
 published: true
 reference: http://uxmag.com/strategy/user-and-customer-experience-in-a-member-services-organization

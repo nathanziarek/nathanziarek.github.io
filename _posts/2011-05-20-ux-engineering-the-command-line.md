@@ -1,7 +1,7 @@
 ---
 layout: article
 title: UX Engineering the Command Line
-excerpt: 
+snippet: 
 permalink: ux-engineering-the-command-line
 published: true
 reference: http://acko.net/blog/on-termkit

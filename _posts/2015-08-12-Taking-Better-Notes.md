@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Taking Better Notes
-excerpt: As we get more and more digital and the tools get better, faster and more accurate, I'm always a little happy to know there's still a place and reason for pen and paper. 
+snippet: As we get more and more digital and the tools get better, faster and more accurate, I'm always a little happy to know there's still a place and reason for pen and paper. 
 permalink: taking-better-notes
 published: true
 author: Nathan Ziarek

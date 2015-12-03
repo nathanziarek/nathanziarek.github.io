@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Stop Thinking These Goals Are Meaningful Strategies
-excerpt: 
+snippet: 
 permalink: stop-thinking-these-goals-are-meaningful-strategies
 published: true
 reference: http://uxmag.com/strategy/five-popular-web-strategies-that-dont-work

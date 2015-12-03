@@ -1,7 +1,7 @@
 ---
 layout: article
 title: The Much Maligned Hamburger Menu
-excerpt: Is it the hamburger menu, or is it lax information architecture?
+snippet: Is it the hamburger menu, or is it lax information architecture?
 permalink: the-much-maligned-hambuger-menu
 published: true
 author: Nathan Ziarek

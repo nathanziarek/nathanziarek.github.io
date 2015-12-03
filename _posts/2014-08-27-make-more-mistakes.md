@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Make More Mistakes
-excerpt: Fear of mistakes impedes creativity.
+snippet: Fear of mistakes impedes creativity.
 permalink: make-more-mistakes
 published: true
 author: Nathan Ziarek

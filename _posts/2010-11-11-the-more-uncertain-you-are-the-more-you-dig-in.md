@@ -1,7 +1,7 @@
 ---
 layout: article
 title: The More Uncertain You Are, The More You Dig In Your Heels
-excerpt: 
+snippet: 
 permalink: the-more-uncertain-you-are-the-more-you-dig-in
 published: true
 reference: http://www.whatmakesthemclick.net/2010/11/01/100-things-you-should-know-about-people-46-the-more-uncertain-you-are-the-more-you-dig-in-and-defend-your-ideas/

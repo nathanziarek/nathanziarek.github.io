@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Should You Worry About Your Bounce Rate?
-excerpt: Never in isolation.
+snippet: Never in isolation.
 permalink: should-you-worry-about-your-bounce-rate
 published: true
 reference: http://www.sitepronews.com/2010/11/07/should-you-worry-about-your-bounce-rate/

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: HTML5 .pushState()
-excerpt:
+snippet:
 permalink: html5-pushstate
 published: true
 reference: http://daringfireball.net/linked/2010/11/18/20-things

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Battery Drain Blocking, Invasive Blocking, not Content Blocking
-excerpt: It's not content we're looking to block—it's invasive tracking and data collection.
+snippet: It's not content we're looking to block—it's invasive tracking and data collection.
 permalink: garbage-blocking
 published: true
 author: Nathan Ziarek

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Google Analytics Revenue Attribution for Search Terms and Internal Promotions
-excerpt: Understanding the revenue numbers from the Internal Promotion and Search Term reports.
+snippet: Understanding the revenue numbers from the Internal Promotion and Search Term reports.
 permalink: google-analytics-revenue-attribution-search-internal-promotion
 published: true
 author: Nathan Ziarek

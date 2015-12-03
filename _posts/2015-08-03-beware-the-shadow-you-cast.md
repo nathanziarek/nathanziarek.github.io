@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Beware the Shadow You Cast
-excerpt: Your influence is bigger than you think.
+snippet: Your influence is bigger than you think.
 permalink: beware-the-shadow-you-cast
 published: true
 author: Nathan Ziarek

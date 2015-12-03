@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Ignore the Fold
-excerpt: We've been told "above the fold" is meaningless for years. Does this research prove it?
+snippet: We've been told "above the fold" is meaningless for years. Does this research prove it?
 permalink: ignore-the-fold
 published: true
 author: Nathan Ziarek

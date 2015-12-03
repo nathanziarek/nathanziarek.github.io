@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Simplification Through Iteration
-excerpt: 
+snippet: 
 permalink: simplification-through-iteration
 published: true
 reference: http://measuringmeasures.com/blog/2011/1/14/three-design-hacks-from-apple.html

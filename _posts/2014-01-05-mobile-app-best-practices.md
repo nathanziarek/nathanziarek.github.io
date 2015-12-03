@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Mobile App Best Practices (and Why Mobile Doesn't Always Win)
-excerpt: The Google Chrome Dev Summit provided a great summary of mobile best practices, but miss the boat on user need.
+snippet: The Google Chrome Dev Summit provided a great summary of mobile best practices, but miss the boat on user need.
 categories: [CSS, Web Fonts, Mobile]
 published: true
 permalink: mobile-app-best-practices

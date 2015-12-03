@@ -1,7 +1,7 @@
 ---
 layout: article
 title: How Google Makes Their Maps So Usable
-excerpt: Ever notice that Google Maps are easier to read than Bing or Yahoo's?
+snippet: Ever notice that Google Maps are easier to read than Bing or Yahoo's?
 permalink: youtube-and-the-largest-google-website-optimizer-test-in-history
 published: true
 reference: http://www.41latitude.com/post/2072504768/google-maps-label-readability

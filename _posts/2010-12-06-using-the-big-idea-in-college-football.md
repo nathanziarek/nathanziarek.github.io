@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Using the "Big Idea" in College Football
-excerpt: 
+snippet: 
 permalink: using-the-big-idea-in-college-football
 published: true
 reference: http://www.nytimes.com/2010/12/05/magazine/05Football-t.html?pagewanted=all

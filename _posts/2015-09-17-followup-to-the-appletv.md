@@ -1,7 +1,7 @@
 ---
 layout: article
 title: The Future of TV is App Clutter
-excerpt: 
+snippet: 
 permalink: thoughts-on-appletv
 published: false
 author: Nathan Ziarek

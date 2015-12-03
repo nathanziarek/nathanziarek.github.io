@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Closeness of Actions and Objects in GUI Design
-excerpt: 
+snippet: 
 permalink: closeness-of-actions-and-objects-in-gui-design
 categories: ux 
 published: true

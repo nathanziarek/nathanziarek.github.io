@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Design vs. UX?
-excerpt: Isn't design a part of the user experience?
+snippet: Isn't design a part of the user experience?
 permalink: design-vs-ux
 published: true
 author: Nathan Ziarek

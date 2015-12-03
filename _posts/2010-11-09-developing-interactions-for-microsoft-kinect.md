@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Developing Interactions for Microsoft's Xbox Kinect
-excerpt: Will the Kinect's hackability build a new paradigm for human-computer interaction?
+snippet: Will the Kinect's hackability build a new paradigm for human-computer interaction?
 permalink: developing-interactions-for-xbox-kinect
 categories: kinect ux interaction
 published: true

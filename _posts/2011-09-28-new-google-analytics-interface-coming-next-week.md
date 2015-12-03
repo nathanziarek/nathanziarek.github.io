@@ -1,7 +1,7 @@
 ---
 layout: article
 title: New Google Analytics interface coming next week
-excerpt:
+snippet:
 permalink: new-google-analytics-interface-coming-next-week
 published: true
 reference: http://analytics.blogspot.com/2011/09/design-updates-to-new-interface-coming.html

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Why Wise Leaders Don't Know Too Much
-excerpt: In user experience, consistency and focus matters more than all-encompassing knowledge.
+snippet: In user experience, consistency and focus matters more than all-encompassing knowledge.
 permalink: why-wise-leaders-don-t-know-too-much
 categories: knowledge ux 
 published: true

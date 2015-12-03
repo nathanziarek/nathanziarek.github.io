@@ -1,7 +1,7 @@
 ---
 layout: article
 title: UGH Interface of the Week
-excerpt: Who at Pintrest thought this was a good idea?
+snippet: Who at Pintrest thought this was a good idea?
 permalink: ugh-interface-of-the-week
 published: true
 author: Nathan Ziarek

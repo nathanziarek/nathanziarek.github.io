@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Google Ups the Ante with Analytics Enhancements
-excerpt: Mobile tracking, intelligent metrics and great custom variables. Fantastic update. 
+snippet: Mobile tracking, intelligent metrics and great custom variables. Fantastic update. 
 permalink: google-ups-the-ante-with-analytics-enhancements
 categories: google-analytics 
 published: true

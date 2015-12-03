@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Making CSS Borders Work for You
-excerpt: Slick technique to make CSS arrows.
+snippet: Slick technique to make CSS arrows.
 categories: css
 published: true
 permalink: making-css-borders-work-for-you

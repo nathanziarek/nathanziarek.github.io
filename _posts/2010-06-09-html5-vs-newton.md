@@ -1,7 +1,7 @@
 ---
 layout: article
 title: HTML5 vs. Newton
-excerpt: 
+snippet: 
 permalink: html5-vs-newton
 published: true
 reference: http://www.flickr.com/photos/splorp/sets/72157624225682388/

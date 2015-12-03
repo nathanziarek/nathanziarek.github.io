@@ -1,7 +1,7 @@
 ---
 layout: article
 title: The Voting User Experience
-excerpt: 
+snippet: 
 permalink: the-voting-user-experience
 published: true
 reference: http://www.uxbooth.com/blog/november-elections-whats-wrong-with-the-voting-user-experience/

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: blah blah blah
-excerpt: 
+snippet: 
 permalink: thoughts-on-appletv
 published: false
 author: Nathan Ziarek

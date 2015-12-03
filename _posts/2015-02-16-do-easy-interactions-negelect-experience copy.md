@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Do Easy Interactions Neglect Experience?
-excerpt: Wired discusses why we should design some things to be difficult to use.
+snippet: Wired discusses why we should design some things to be difficult to use.
 permalink: do-easy-interactions-neglect-experience
 published: true
 author: Nathan Ziarek

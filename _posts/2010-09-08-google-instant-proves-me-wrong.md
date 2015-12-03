@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Google Instant Proves Me Wrong
-excerpt: Google keeps adding stuff to their pages, and they keep loading faster.
+snippet: Google keeps adding stuff to their pages, and they keep loading faster.
 permalink: google-instant-proves-me-wrong
 published: true
 author: Nathan Ziarek

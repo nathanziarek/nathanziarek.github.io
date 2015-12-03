@@ -1,7 +1,7 @@
 ---
 layout: article
 title: There's That Word Again. Intuitive.
-excerpt: You keep using that word, I do not think it means what you think it means.
+snippet: You keep using that word, I do not think it means what you think it means.
 permalink: intuition
 published: true
 author: Nathan Ziarek

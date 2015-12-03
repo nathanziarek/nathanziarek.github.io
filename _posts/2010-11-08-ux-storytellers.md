@@ -1,7 +1,7 @@
 ---
 layout: article
 title: UX Storytellers
-excerpt: 
+snippet: 
 permalink: ux-storytellers
 published: true
 reference: http://www.scribd.com/doc/40698393/UX-Storytellers

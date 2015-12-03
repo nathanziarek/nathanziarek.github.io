@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Three Years Later, Feedburner Finds a Home @ Google
-excerpt: 
+snippet: 
 permalink: three-years-later-feedburner-finds-a-home-google
 categories: feedburner google-analytics rss 
 published: true

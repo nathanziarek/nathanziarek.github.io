@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Minimalist Google (now with hideaway menus!)
-excerpt: 
+snippet: 
 permalink: minimalist-google-now-with-hideaway-menus
 categories: google ux 
 published: true

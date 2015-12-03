@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Staying Competitive through Strategic UX Design
-excerpt: Thinking of UX as a process that encompasses strategy, innovation & design is the secret sauce of success.
+snippet: Thinking of UX as a process that encompasses strategy, innovation & design is the secret sauce of success.
 permalink: staying-competitive-through-strategic-ux-design
 published: true
 author: Nathan Ziarek

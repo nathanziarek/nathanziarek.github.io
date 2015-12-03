@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Is My Web Analytic Software Even Working?
-excerpt: Quick tips and tricks to verifying your analytics install. 
+snippet: Quick tips and tricks to verifying your analytics install. 
 permalink: is-my-web-analytic-software-even-working
 categories: google-analytics webtrends clicky web-inspector 
 published: true

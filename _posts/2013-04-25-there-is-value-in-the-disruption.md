@@ -1,7 +1,7 @@
 ---
 layout: article
 title: There is Value in the Disruption
-excerpt: Making things objectively better may not always equal better usability.
+snippet: Making things objectively better may not always equal better usability.
 categories: search facets ux
 published: true
 permalink: there-is-value-in-the-disruption

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Milwaukee Applying to Google Fiber for Communities
-excerpt: Yay!
+snippet: Yay!
 permalink: milwaukee-applying-to-google-fiber-for-communities
 categories: milwaukee google-fiber 
 published: true

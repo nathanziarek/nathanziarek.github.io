@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Speeding up the Web with Amazon Silk
-excerpt: 
+snippet: 
 permalink: speeding-up-the-web-with-amazon-silk
 published: true
 author: Nathan Ziarek

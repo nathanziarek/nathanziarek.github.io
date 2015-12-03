@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Personas are a Dish Best Served
-excerpt: 
+snippet: 
 permalink: personas-are-a-dish-best-served
 published: true
 reference: http://www.uie.com/brainsparks/2008/01/24/personas-are-not-a-document/

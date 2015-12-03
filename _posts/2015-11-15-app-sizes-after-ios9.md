@@ -1,7 +1,7 @@
 ---
 layout: article
 title: App Thinning
-excerpt: iOS9 Brings App Thinning. How does it affect your device?
+snippet: iOS9 Brings App Thinning. How does it affect your device?
 permalink: app-thinning-research
 published: true
 author: Nathan Ziarek

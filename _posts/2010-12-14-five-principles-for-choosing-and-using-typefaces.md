@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Five Principles for Choosing & Using Typefaces
-excerpt: A huge part of our day is spent interacting with typography. Smashing Magazine offers a great primer on why fonts really matter.
+snippet: A huge part of our day is spent interacting with typography. Smashing Magazine offers a great primer on why fonts really matter.
 categories: type
 published: true
 reference: http://www.smashingmagazine.com/2010/12/14/what-font-should-i-use-five-principles-for-choosing-and-using-typefaces/

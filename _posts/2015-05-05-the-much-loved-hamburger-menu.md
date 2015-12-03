@@ -1,7 +1,7 @@
 ---
 layout: article
 title: The Much Loved Hamburger Menu
-excerpt: Nevermind. We love the hamburger menu now.
+snippet: Nevermind. We love the hamburger menu now.
 permalink: the-much-loved-hambuger-menu
 published: true
 author: Nathan Ziarek

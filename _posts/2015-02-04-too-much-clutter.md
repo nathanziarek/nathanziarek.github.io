@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Too Much Clutter?
-excerpt: Clutter isn't just visual noise--it's actively harming your users.
+snippet: Clutter isn't just visual noise--it's actively harming your users.
 permalink: too-much-clutter
 published: true
 author: Nathan Ziarek

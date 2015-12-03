@@ -1,7 +1,7 @@
 ---
 layout: article
 title: UX Intersections
-excerpt: User experience is a balancing act, combining what the user desires, what the business needs, what the technology can support and what the organization can sustain.
+snippet: User experience is a balancing act, combining what the user desires, what the business needs, what the technology can support and what the organization can sustain.
 permalink: ux-venn-diagram
 published: true
 author: Nathan Ziarek

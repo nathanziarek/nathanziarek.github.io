@@ -1,7 +1,7 @@
 ---
 layout: article
 title: If All You Want to do is Protect the Consumer, Join the ACLU.
-excerpt: UX is the art of building an experience from the direction of the business.
+snippet: UX is the art of building an experience from the direction of the business.
 permalink: if-all-you-want-if-to-protect-the-consumer-join-the-ACLU
 published: true
 author: Nathan Ziarek

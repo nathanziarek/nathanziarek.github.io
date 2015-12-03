@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Diffusion of Responsibility
-excerpt: 
+snippet: 
 permalink: diffusion-of-responsibility
 categories: PET ux 
 published: true

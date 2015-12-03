@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Hierarchical Facebook Design Circa 2006
-excerpt: 
+snippet: 
 permalink: hierarchical-facebook-design-circa-2006
 categories: ux facebook 
 published: true

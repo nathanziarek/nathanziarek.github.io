@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Nineteen Ways to Ruin a Survey
-excerpt: If you don't want Jared Spool to eviscerate your survey, practice a modicum of UX.
+snippet: If you don't want Jared Spool to eviscerate your survey, practice a modicum of UX.
 categories: ux survey
 published: true
 reference: http://www.uie.com/brainsparks/2010/12/26/19-lessons-from-united-airlines-on-how-to-build-a-crappy-survey/

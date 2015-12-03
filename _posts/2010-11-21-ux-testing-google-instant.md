@@ -1,7 +1,7 @@
 ---
 layout: article
 title: UX Testing Google Instant
-excerpt: 
+snippet: 
 permalink: ux-testing-google-instant
 published: true
 reference: http://news.cnet.com/8301-30684_3-20019652-265.html?tag=nl.e703

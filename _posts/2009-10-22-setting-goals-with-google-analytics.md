@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Setting Goals with Google Analytics
-excerpt: 
+snippet: 
 permalink: setting-goals-with-google-analytics
 categories: google-analytics 
 published: true

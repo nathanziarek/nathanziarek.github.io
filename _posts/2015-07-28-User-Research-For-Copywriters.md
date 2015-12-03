@@ -1,7 +1,7 @@
 ---
 layout: article
 title: User Research For Copywriters
-excerpt: Excellent tips for anyone who's role impacts users. (That's all of you.)
+snippet: Excellent tips for anyone who's role impacts users. (That's all of you.)
 permalink: user-research-for-copywriting
 published: true
 author: Nathan Ziarek
