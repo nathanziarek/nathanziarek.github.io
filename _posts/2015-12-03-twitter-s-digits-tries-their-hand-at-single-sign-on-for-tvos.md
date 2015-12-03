@@ -1,10 +1,11 @@
 ---
 layout: article
 title: Twitter's Digits Tries Their Hand at Single Sign On for tvOS
+snippet: ...and now we have fifteen competing standards.
 permalink: twitter-s-digits-tries-their-hand-at-single-sign-on-for-tvos
 published: true
 author: Nathan Ziarek
-categories: [tvos,appletv ]
+categories: [tvos,appletv]
 image: http://imgs.xkcd.com/comics/standards.png
 ---
 
