@@ -42,8 +42,12 @@
         <meta name="twitter:domain" content="{{ site.url }}">
         {% if page.image == undefined %}
             <meta name="twitter:image" content="{{ site.url }}/interface/icon-512.png">
-        {% else %}
-            <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+        {% else %}        
+            {% if post.image contains 'http' %}
+                <meta name="twitter:image" content="{{ page.image }}">
+            {% else %}
+                <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+            {% endif %}
         {% endif %}
         {% if page.video != undefined %}
             <meta name="twitter:player:stream" content="{{ site.url }}{{ page.video }}">
@@ -55,8 +59,11 @@
         {% if page.image == undefined %}
             <meta property="og:image" content="{{ site.url }}/interface/icon-512.png">
         {% else %}
-            <meta property="og:image" content="{{ site.url }}{{ page.image }}">
-        {% endif %}
+            {% if post.image contains 'http' %}
+                <meta property="og:image" content="{{ page.image }}">
+            {% else %}
+                <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+            {% endif %}        {% endif %}
         <meta property="og:description" content="{{ page.snippet | replace: '"', '\"' }}">
         <meta property="article:author" content="http://www.linkedin.com/in/nathanziarek" />
         <meta property="article:author" content="https://www.facebook.com/nathanziarek" />
