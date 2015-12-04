@@ -6,7 +6,7 @@ published: true
 author: Nathan Ziarek
 categories: [automation]
 image: http://graphics8.nytimes.com/images/2015/12/04/technology/04bits/04bits--blog480.jpg
-snippet: A study automation & the job market notes that technology creates jobs faster than it replaces them.
+snippet: A study on automation & the job market notes that technology creates jobs faster than it replaces them.
 ---
 
 Interesting findings from James Bessen, a researcher at the Boston University School of Law. The more you automate your industry, the more jobs it creates. 
