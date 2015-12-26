@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Medium's Ev Williams: 'It's Going to Make Less and Less Sense to Publish on the Web'
-permalink: medium-s-ev-williams-it-s-going-to-make-less-and-less-sense-to-publish-on-the-web
+permalink: mediums-ev-williams-it-s-going-to-make-less-and-less-sense-to-publish-on-the-web
 published: true
 author: Nathan Ziarek
 categories: []
@@ -15,4 +15,4 @@ Ev Williams of Twitter and Medium fame thinks individual article-based sites are
 >
 > --[Medium’s Ev Williams: ‘It’s Going to Make Less and Less Sense to Publish on the Web’](http://recode.net/2015/12/24/mediums-ev-williams-its-going-to-make-less-and-less-sense-to-publish-on-the-web/)
 
-It's a touch self- serving and more than a tad buzz-wordy, but Flipboard, Apple News and Facebook Paper make it clear that's the direction the industry is pushing.
+It's a touch self-serving and more than a tad buzz-wordy, but Flipboard, Apple News and Facebook Paper make it clear that's the direction the industry is pushing.
