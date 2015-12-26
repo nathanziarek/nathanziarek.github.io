@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Medium's Ev Williams: 'It's Going to Make Less and Less Sense to Publish on the Web'
+title: Ev Williams: 'It's Going to Make Less and Less Sense to Publish on the Web'
 permalink: mediums-ev-williams-it-s-going-to-make-less-and-less-sense-to-publish-on-the-web
 published: true
 author: Nathan Ziarek
