@@ -6,6 +6,7 @@ published: true
 author: Nathan Ziarek
 categories: [ux,mobile]
 image: https://think.storage.googleapis.com/images/principles-of-mobile-app-design-ch6-sm.jpg
+snippet: Good design is good design, whether mobile, desktop or the thing we haven't thought of yet.
 ---
 
 > In a crowded market, how does an app attract new customers, gain loyalty, and deliver value? With great design for a delightful app experience. Here, Google's UX Research Lead Jenny Gove will take you through 25 principles to build an app that helps users achieve what they’re looking to do.
