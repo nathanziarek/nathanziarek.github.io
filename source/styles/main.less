@@ -4,9 +4,7 @@
 @content-width: 700px;
 @content-gutter: 30px;
 @overlap: @content-gutter * 3;
-
 @import "fonts";
-
 body {
     background: white;
     font-family: "Alegreya Sans";
@@ -15,7 +13,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .social-icons {
     text-align: center;
     margin: 50px auto;
@@ -31,7 +28,6 @@ body {
         margin: 0 3px;
     }
 }
-
 #site-brand {
     height: (@content-gutter * 3);
     display: block;
@@ -47,14 +43,13 @@ body {
     }
     svg {
         fill: @color;
-        transition: width .5s cubic-bezier(.175,.885,.32,1.275), height .5s cubic-bezier(.175,.885,.32,1.275), margin .5s cubic-bezier(.175,.885,.32,1.275);
+        transition: width .5s cubic-bezier(.175, .885, .32, 1.275), height .5s cubic-bezier(.175, .885, .32, 1.275), margin .5s cubic-bezier(.175, .885, .32, 1.275);
         width: @content-gutter;
         height: @content-gutter;
         margin: @content-gutter auto;
         display: block;
     }
 }
-
 article {
     display: block;
     margin: 30px auto 0 auto;
@@ -66,7 +61,14 @@ article {
             text-decoration: none;
             transition: color .5s ease;
             &:hover {
-                color: @color
+                color: @color;
+                del {
+                    color: mix(lighten(@color-text, 90%), @color);
+                }
+            }
+            del {
+                color: lighten(@color-text, 50%);
+                transition: color .5s ease;
             }
         }
     }
@@ -93,7 +95,8 @@ article {
             }
         }
     }
-    p:extend(article li){};
+    p:extend(article li) {}
+    ;
     blockquote {
         border-left: 3px solid @color-accent;
         padding: 0 15px;
@@ -107,7 +110,8 @@ article {
         border-radius: 2px;
         overflow: hidden;
     }
-    video:extend(article img){};
+    video:extend(article img) {}
+    ;
     table {
         width: 100%;
         border-spacing: 0;
@@ -142,9 +146,9 @@ article {
                     img {
                         width: 15px;
                         margin: 0;
-                        vertical-align:middle;
-                        margin-right:6px;
-                        box-shadow:none;
+                        vertical-align: middle;
+                        margin-right: 6px;
+                        box-shadow: none;
                     }
                     a {
                         color: mix(@color, #333);
@@ -163,7 +167,6 @@ article {
         }
     }
 }
-
 section {
     width: @content-width;
     display: block;
@@ -330,5 +333,4 @@ section {
         }
     }
 }
-
 @import "responsive-tables";

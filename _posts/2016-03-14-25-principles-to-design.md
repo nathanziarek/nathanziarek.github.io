@@ -2,7 +2,7 @@
 layout: article
 title: Principles of <del>Mobile App</del> Design
 permalink: principles-of-mobile-app-design
-published: false
+published: true
 author: Nathan Ziarek
 categories: [ux,mobile]
 image: https://think.storage.googleapis.com/images/principles-of-mobile-app-design-ch6-sm.jpg

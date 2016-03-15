@@ -8,7 +8,8 @@ style: article
 	{% if page.reference %}
 	<h1><a itemprop="name" href="{{ page.reference }}">{{page.title | xml_escape}}</a></h1>
 	{% else %}
-	<h1><a itemprop="name" href="/{{ page.permalink }}">{{page.title | xml_escape}}</a></h1>
+	<h1><a itemprop="name" href="/{{ page.permalink }}">{{page.title}}</a></h1>
+	<!--<h1><a itemprop="name" href="/{{ page.permalink }}">{{page.title | xml_escape}}</a></h1>-->
 	{% endif %}
 
 	{{content}}
